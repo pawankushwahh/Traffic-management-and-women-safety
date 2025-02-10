@@ -1,0 +1,14 @@
+{
+    "MH12DE1234": {
+        "owner_name": "John Doe",
+        "phone": "+1234567890"
+    },
+    "KA01AB1234": {
+        "owner_name": "Jane Smith",
+        "phone": "+9876543210"
+    },
+    "DL01CD5678": {
+        "owner_name": "Bob Johnson",
+        "phone": "+1122334455"
+    }
+}
