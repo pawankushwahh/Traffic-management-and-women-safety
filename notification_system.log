@@ -1299,3 +1299,307 @@ Fine Amount: Rs. 500
 2025-02-15 15:59:25,431 - WARNING - Vehicle UP32GG1010 not found in database
 2025-02-15 15:59:25,431 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
 2025-02-15 15:59:25,431 - INFO - Processed 0 out of 10 violations
+2025-02-15 17:53:11,685 - INFO - Successfully loaded all datasets
+2025-02-15 17:53:11,686 - INFO - Loaded 99 vehicles, 10 violations, and 10 authorities
+2025-02-15 17:53:11,686 - INFO - Vehicle numbers in database: ADITYA MISHRA, SNEHA GUPTA, MOHIT SRIVASTAVA, RITU PANDEY, SANJAY KUMAR
+2025-02-15 17:53:11,688 - INFO - Vehicle numbers in violations: UP32UV1111, UP32WX2222, UP32YZ3333, UP32AA4444, UP32BB5555
+2025-02-15 17:53:11,689 - INFO - Starting to process all violations
+2025-02-15 17:53:11,690 - INFO - Processing violation for vehicle: UP32UV1111
+2025-02-15 17:53:11,691 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,691 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,692 - INFO - Looking for exact match: 'UP32UV1111'
+2025-02-15 17:53:11,692 - INFO - Looking for vehicle: UP32UV1111
+2025-02-15 17:53:11,698 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 17:53:11,698 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 17:53:11,699 - INFO - Processing violation for vehicle: UP32WX2222
+2025-02-15 17:53:11,699 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,701 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,701 - INFO - Looking for exact match: 'UP32WX2222'
+2025-02-15 17:53:11,701 - INFO - Looking for vehicle: UP32WX2222
+2025-02-15 17:53:11,703 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 17:53:11,704 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 17:53:11,705 - INFO - Processing violation for vehicle: UP32YZ3333
+2025-02-15 17:53:11,706 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,707 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,708 - INFO - Looking for exact match: 'UP32YZ3333'
+2025-02-15 17:53:11,708 - INFO - Looking for vehicle: UP32YZ3333
+2025-02-15 17:53:11,709 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 17:53:11,710 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 17:53:11,711 - INFO - Processing violation for vehicle: UP32AA4444
+2025-02-15 17:53:11,712 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,713 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,713 - INFO - Looking for exact match: 'UP32AA4444'
+2025-02-15 17:53:11,714 - INFO - Looking for vehicle: UP32AA4444
+2025-02-15 17:53:11,714 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 17:53:11,716 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 17:53:11,717 - INFO - Processing violation for vehicle: UP32BB5555
+2025-02-15 17:53:11,718 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,719 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,719 - INFO - Looking for exact match: 'UP32BB5555'
+2025-02-15 17:53:11,720 - INFO - Looking for vehicle: UP32BB5555
+2025-02-15 17:53:11,720 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 17:53:11,721 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 17:53:11,722 - INFO - Processing violation for vehicle: UP32CC6666
+2025-02-15 17:53:11,723 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,723 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,724 - INFO - Looking for exact match: 'UP32CC6666'
+2025-02-15 17:53:11,724 - INFO - Looking for vehicle: UP32CC6666
+2025-02-15 17:53:11,726 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 17:53:11,727 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 17:53:11,728 - INFO - Processing violation for vehicle: UP32DD7777
+2025-02-15 17:53:11,729 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,730 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,730 - INFO - Looking for exact match: 'UP32DD7777'
+2025-02-15 17:53:11,731 - INFO - Looking for vehicle: UP32DD7777
+2025-02-15 17:53:11,733 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 17:53:11,733 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 17:53:11,734 - INFO - Processing violation for vehicle: UP32EE8888
+2025-02-15 17:53:11,735 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,736 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,736 - INFO - Looking for exact match: 'UP32EE8888'
+2025-02-15 17:53:11,737 - INFO - Looking for vehicle: UP32EE8888
+2025-02-15 17:53:11,738 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 17:53:11,738 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 17:53:11,740 - INFO - Processing violation for vehicle: UP32FF9999
+2025-02-15 17:53:11,741 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,741 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,741 - INFO - Looking for exact match: 'UP32FF9999'
+2025-02-15 17:53:11,741 - INFO - Looking for vehicle: UP32FF9999
+2025-02-15 17:53:11,743 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 17:53:11,744 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 17:53:11,746 - INFO - Processing violation for vehicle: UP32GG1010
+2025-02-15 17:53:11,746 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 17:53:11,747 - INFO - Total vehicles in database: 99
+2025-02-15 17:53:11,747 - INFO - Looking for exact match: 'UP32GG1010'
+2025-02-15 17:53:11,748 - INFO - Looking for vehicle: UP32GG1010
+2025-02-15 17:53:11,749 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 17:53:11,750 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 17:53:11,750 - INFO - Processed 0 out of 10 violations
+2025-02-15 18:46:55,818 - INFO - Successfully loaded all datasets
+2025-02-15 18:46:55,819 - INFO - Loaded 99 vehicles, 10 violations, and 10 authorities
+2025-02-15 18:46:55,820 - INFO - Vehicle numbers in database: ADITYA MISHRA, SNEHA GUPTA, MOHIT SRIVASTAVA, RITU PANDEY, SANJAY KUMAR
+2025-02-15 18:46:55,822 - INFO - Vehicle numbers in violations: UP32UV1111, UP32WX2222, UP32YZ3333, UP32AA4444, UP32BB5555
+2025-02-15 18:46:55,822 - INFO - Starting to process all violations
+2025-02-15 18:46:55,824 - INFO - Processing violation for vehicle: UP32UV1111
+2025-02-15 18:46:55,826 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,827 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,827 - INFO - Looking for exact match: 'UP32UV1111'
+2025-02-15 18:46:55,827 - INFO - Looking for vehicle: UP32UV1111
+2025-02-15 18:46:55,835 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 18:46:55,835 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 18:46:55,836 - INFO - Processing violation for vehicle: UP32WX2222
+2025-02-15 18:46:55,836 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,836 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,837 - INFO - Looking for exact match: 'UP32WX2222'
+2025-02-15 18:46:55,837 - INFO - Looking for vehicle: UP32WX2222
+2025-02-15 18:46:55,837 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 18:46:55,838 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 18:46:55,838 - INFO - Processing violation for vehicle: UP32YZ3333
+2025-02-15 18:46:55,839 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,839 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,839 - INFO - Looking for exact match: 'UP32YZ3333'
+2025-02-15 18:46:55,839 - INFO - Looking for vehicle: UP32YZ3333
+2025-02-15 18:46:55,841 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 18:46:55,842 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 18:46:55,842 - INFO - Processing violation for vehicle: UP32AA4444
+2025-02-15 18:46:55,843 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,843 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,843 - INFO - Looking for exact match: 'UP32AA4444'
+2025-02-15 18:46:55,843 - INFO - Looking for vehicle: UP32AA4444
+2025-02-15 18:46:55,844 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 18:46:55,844 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 18:46:55,844 - INFO - Processing violation for vehicle: UP32BB5555
+2025-02-15 18:46:55,846 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,847 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,847 - INFO - Looking for exact match: 'UP32BB5555'
+2025-02-15 18:46:55,848 - INFO - Looking for vehicle: UP32BB5555
+2025-02-15 18:46:55,849 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 18:46:55,850 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 18:46:55,850 - INFO - Processing violation for vehicle: UP32CC6666
+2025-02-15 18:46:55,851 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,852 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,852 - INFO - Looking for exact match: 'UP32CC6666'
+2025-02-15 18:46:55,852 - INFO - Looking for vehicle: UP32CC6666
+2025-02-15 18:46:55,853 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 18:46:55,854 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 18:46:55,854 - INFO - Processing violation for vehicle: UP32DD7777
+2025-02-15 18:46:55,854 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,855 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,856 - INFO - Looking for exact match: 'UP32DD7777'
+2025-02-15 18:46:55,857 - INFO - Looking for vehicle: UP32DD7777
+2025-02-15 18:46:55,858 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 18:46:55,858 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 18:46:55,859 - INFO - Processing violation for vehicle: UP32EE8888
+2025-02-15 18:46:55,859 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,859 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,860 - INFO - Looking for exact match: 'UP32EE8888'
+2025-02-15 18:46:55,860 - INFO - Looking for vehicle: UP32EE8888
+2025-02-15 18:46:55,861 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 18:46:55,862 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 18:46:55,862 - INFO - Processing violation for vehicle: UP32FF9999
+2025-02-15 18:46:55,863 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,863 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,863 - INFO - Looking for exact match: 'UP32FF9999'
+2025-02-15 18:46:55,864 - INFO - Looking for vehicle: UP32FF9999
+2025-02-15 18:46:55,866 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 18:46:55,866 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 18:46:55,866 - INFO - Processing violation for vehicle: UP32GG1010
+2025-02-15 18:46:55,867 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 18:46:55,868 - INFO - Total vehicles in database: 99
+2025-02-15 18:46:55,868 - INFO - Looking for exact match: 'UP32GG1010'
+2025-02-15 18:46:55,868 - INFO - Looking for vehicle: UP32GG1010
+2025-02-15 18:46:55,870 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 18:46:55,870 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 18:46:55,870 - INFO - Processed 0 out of 10 violations
+2025-02-15 19:00:40,706 - INFO - Successfully loaded all datasets
+2025-02-15 19:00:40,708 - INFO - Loaded 100 vehicles, 10 violations, and 10 authorities
+2025-02-15 19:00:40,710 - INFO - Vehicle numbers in database: ADITYA MISHRA, SNEHA GUPTA, MOHIT SRIVASTAVA, RITU PANDEY, SANJAY KUMAR
+2025-02-15 19:00:40,712 - INFO - Vehicle numbers in violations: UP32UV1111, UP32WX2222, UP32YZ3333, UP32AA4444, UP32BB5555
+2025-02-15 19:00:40,715 - INFO - Starting to process all violations
+2025-02-15 19:00:40,716 - INFO - Processing violation for vehicle: UP32UV1111
+2025-02-15 19:00:40,718 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,719 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,719 - INFO - Looking for exact match: 'UP32UV1111'
+2025-02-15 19:00:40,719 - INFO - Looking for vehicle: UP32UV1111
+2025-02-15 19:00:40,723 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 19:00:40,723 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 19:00:40,725 - INFO - Processing violation for vehicle: UP32WX2222
+2025-02-15 19:00:40,725 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,726 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,726 - INFO - Looking for exact match: 'UP32WX2222'
+2025-02-15 19:00:40,726 - INFO - Looking for vehicle: UP32WX2222
+2025-02-15 19:00:40,728 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 19:00:40,728 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 19:00:40,729 - INFO - Processing violation for vehicle: UP32YZ3333
+2025-02-15 19:00:40,730 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,730 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,730 - INFO - Looking for exact match: 'UP32YZ3333'
+2025-02-15 19:00:40,730 - INFO - Looking for vehicle: UP32YZ3333
+2025-02-15 19:00:40,732 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 19:00:40,732 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 19:00:40,732 - INFO - Processing violation for vehicle: UP32AA4444
+2025-02-15 19:00:40,734 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,734 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,734 - INFO - Looking for exact match: 'UP32AA4444'
+2025-02-15 19:00:40,734 - INFO - Looking for vehicle: UP32AA4444
+2025-02-15 19:00:40,735 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 19:00:40,736 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 19:00:40,736 - INFO - Processing violation for vehicle: UP32BB5555
+2025-02-15 19:00:40,737 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,738 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,738 - INFO - Looking for exact match: 'UP32BB5555'
+2025-02-15 19:00:40,738 - INFO - Looking for vehicle: UP32BB5555
+2025-02-15 19:00:40,738 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 19:00:40,740 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 19:00:40,740 - INFO - Processing violation for vehicle: UP32CC6666
+2025-02-15 19:00:40,741 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,741 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,741 - INFO - Looking for exact match: 'UP32CC6666'
+2025-02-15 19:00:40,741 - INFO - Looking for vehicle: UP32CC6666
+2025-02-15 19:00:40,743 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 19:00:40,743 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 19:00:40,744 - INFO - Processing violation for vehicle: UP32DD7777
+2025-02-15 19:00:40,745 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,745 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,745 - INFO - Looking for exact match: 'UP32DD7777'
+2025-02-15 19:00:40,745 - INFO - Looking for vehicle: UP32DD7777
+2025-02-15 19:00:40,747 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 19:00:40,747 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 19:00:40,749 - INFO - Processing violation for vehicle: UP32EE8888
+2025-02-15 19:00:40,749 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,749 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,749 - INFO - Looking for exact match: 'UP32EE8888'
+2025-02-15 19:00:40,749 - INFO - Looking for vehicle: UP32EE8888
+2025-02-15 19:00:40,752 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 19:00:40,752 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 19:00:40,752 - INFO - Processing violation for vehicle: UP32FF9999
+2025-02-15 19:00:40,753 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,753 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,754 - INFO - Looking for exact match: 'UP32FF9999'
+2025-02-15 19:00:40,754 - INFO - Looking for vehicle: UP32FF9999
+2025-02-15 19:00:40,755 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 19:00:40,756 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 19:00:40,756 - INFO - Processing violation for vehicle: UP32GG1010
+2025-02-15 19:00:40,757 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:00:40,757 - INFO - Total vehicles in database: 100
+2025-02-15 19:00:40,757 - INFO - Looking for exact match: 'UP32GG1010'
+2025-02-15 19:00:40,757 - INFO - Looking for vehicle: UP32GG1010
+2025-02-15 19:00:40,758 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 19:00:40,758 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 19:00:40,758 - INFO - Processed 0 out of 10 violations
+2025-02-15 19:01:51,690 - INFO - Successfully loaded all datasets
+2025-02-15 19:01:51,691 - INFO - Loaded 100 vehicles, 10 violations, and 10 authorities
+2025-02-15 19:01:51,693 - INFO - Vehicle numbers in database: ADITYA MISHRA, SNEHA GUPTA, MOHIT SRIVASTAVA, RITU PANDEY, SANJAY KUMAR
+2025-02-15 19:01:51,693 - INFO - Vehicle numbers in violations: UP32UV1111, UP32WX2222, UP32YZ3333, UP32AA4444, UP32BB5555
+2025-02-15 19:01:51,694 - INFO - Starting to process all violations
+2025-02-15 19:01:51,696 - INFO - Processing violation for vehicle: UP32UV1111
+2025-02-15 19:01:51,696 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,697 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,697 - INFO - Looking for exact match: 'UP32UV1111'
+2025-02-15 19:01:51,697 - INFO - Looking for vehicle: UP32UV1111
+2025-02-15 19:01:51,699 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 19:01:51,699 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 19:01:51,699 - INFO - Processing violation for vehicle: UP32WX2222
+2025-02-15 19:01:51,700 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,700 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,702 - INFO - Looking for exact match: 'UP32WX2222'
+2025-02-15 19:01:51,702 - INFO - Looking for vehicle: UP32WX2222
+2025-02-15 19:01:51,703 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 19:01:51,704 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 19:01:51,705 - INFO - Processing violation for vehicle: UP32YZ3333
+2025-02-15 19:01:51,705 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,705 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,706 - INFO - Looking for exact match: 'UP32YZ3333'
+2025-02-15 19:01:51,706 - INFO - Looking for vehicle: UP32YZ3333
+2025-02-15 19:01:51,707 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 19:01:51,707 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 19:01:51,707 - INFO - Processing violation for vehicle: UP32AA4444
+2025-02-15 19:01:51,709 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,709 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,709 - INFO - Looking for exact match: 'UP32AA4444'
+2025-02-15 19:01:51,709 - INFO - Looking for vehicle: UP32AA4444
+2025-02-15 19:01:51,710 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 19:01:51,710 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 19:01:51,711 - INFO - Processing violation for vehicle: UP32BB5555
+2025-02-15 19:01:51,712 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,713 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,713 - INFO - Looking for exact match: 'UP32BB5555'
+2025-02-15 19:01:51,713 - INFO - Looking for vehicle: UP32BB5555
+2025-02-15 19:01:51,714 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 19:01:51,714 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 19:01:51,714 - INFO - Processing violation for vehicle: UP32CC6666
+2025-02-15 19:01:51,715 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,715 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,715 - INFO - Looking for exact match: 'UP32CC6666'
+2025-02-15 19:01:51,717 - INFO - Looking for vehicle: UP32CC6666
+2025-02-15 19:01:51,718 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 19:01:51,719 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 19:01:51,719 - INFO - Processing violation for vehicle: UP32DD7777
+2025-02-15 19:01:51,719 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,719 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,721 - INFO - Looking for exact match: 'UP32DD7777'
+2025-02-15 19:01:51,721 - INFO - Looking for vehicle: UP32DD7777
+2025-02-15 19:01:51,722 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 19:01:51,722 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 19:01:51,723 - INFO - Processing violation for vehicle: UP32EE8888
+2025-02-15 19:01:51,723 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,724 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,724 - INFO - Looking for exact match: 'UP32EE8888'
+2025-02-15 19:01:51,725 - INFO - Looking for vehicle: UP32EE8888
+2025-02-15 19:01:51,726 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 19:01:51,726 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 19:01:51,727 - INFO - Processing violation for vehicle: UP32FF9999
+2025-02-15 19:01:51,728 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,728 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,728 - INFO - Looking for exact match: 'UP32FF9999'
+2025-02-15 19:01:51,728 - INFO - Looking for vehicle: UP32FF9999
+2025-02-15 19:01:51,729 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 19:01:51,730 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 19:01:51,730 - INFO - Processing violation for vehicle: UP32GG1010
+2025-02-15 19:01:51,731 - INFO - First few vehicles in database: ['ADITYA MISHRA', 'SNEHA GUPTA', 'MOHIT SRIVASTAVA', 'RITU PANDEY', 'SANJAY KUMAR']
+2025-02-15 19:01:51,731 - INFO - Total vehicles in database: 100
+2025-02-15 19:01:51,731 - INFO - Looking for exact match: 'UP32GG1010'
+2025-02-15 19:01:51,731 - INFO - Looking for vehicle: UP32GG1010
+2025-02-15 19:01:51,732 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 19:01:51,732 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 19:01:51,732 - INFO - Processed 0 out of 10 violations
