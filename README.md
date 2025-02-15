@@ -1,3 +1,6 @@
+# Women_safety_SOS  https://github.com/RAVI-RAJPUT-UMATH/Women_Safety
+# Signal Automation https://github.com/pawankushwahh/Signal_Automation
+
 # Traffic Rule Violation Detection and Notification System
 
 An automated system that detects traffic rule violations using computer vision, processes the violations, and sends notifications to both violators and traffic authorities.
