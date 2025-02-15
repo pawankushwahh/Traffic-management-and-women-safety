@@ -66,13 +66,16 @@ class NotificationSystem:
             self.authorities = pd.read_csv(os.path.join(self.data_dir, 'location_authorities.csv'), dtype=str)
             
             # Clean whitespace from vehicle numbers and locations
-            self.vehicle_db['Vehicle_Number'] = self.vehicle_db['Vehicle_Number'].str.strip()
-            self.violators['Vehicle_Number'] = self.violators['Vehicle_Number'].str.strip()
+            self.vehicle_db['Vehicle_Number'] = self.vehicle_db['Vehicle_Number'].str.strip().str.upper()
+            self.violators['Vehicle_Number'] = self.violators['Vehicle_Number'].str.strip().str.upper()
             self.violators['Location'] = self.violators['Location'].str.strip()
             self.authorities['Location'] = self.authorities['Location'].str.strip()
             
+            # Debug info
             self.logger.info("Successfully loaded all datasets")
             self.logger.info(f"Loaded {len(self.vehicle_db)} vehicles, {len(self.violators)} violations, and {len(self.authorities)} authorities")
+            self.logger.info(f"Vehicle numbers in database: {', '.join(self.vehicle_db['Vehicle_Number'].head().tolist())}")
+            self.logger.info(f"Vehicle numbers in violations: {', '.join(self.violators['Vehicle_Number'].head().tolist())}")
         except Exception as e:
             self.logger.error(f"Error loading datasets: {e}")
             raise
@@ -80,6 +83,8 @@ class NotificationSystem:
     def get_vehicle_details(self, vehicle_number):
         """Retrieve vehicle owner details from the database"""
         try:
+            vehicle_number = vehicle_number.strip().upper()
+            self.logger.info(f"Looking for vehicle: {vehicle_number}")
             matches = self.vehicle_db[self.vehicle_db['Vehicle_Number'] == vehicle_number]
             if len(matches) == 0:
                 self.logger.warning(f"Vehicle {vehicle_number} not found in database")
@@ -91,7 +96,7 @@ class NotificationSystem:
                 'address': vehicle['Address']
             }
         except Exception as e:
-            self.logger.warning(f"Error getting vehicle details for {vehicle_number}: {e}")
+            self.logger.error(f"Error getting vehicle details for {vehicle_number}: {e}")
             return None
 
     def get_authority_details(self, location):
@@ -177,15 +182,24 @@ class NotificationSystem:
         """Process a single violation and send notifications"""
         try:
             # Get vehicle details
-            vehicle_details = self.get_vehicle_details(violation_data['Vehicle_Number'])
-            if not vehicle_details:
-                self.logger.error(f"Cannot process violation: Vehicle {violation_data['Vehicle_Number']} not found")
+            vehicle_number = violation_data['Vehicle_Number']
+            self.logger.info(f"Processing violation for vehicle: {vehicle_number}")
+            
+            # Debug vehicle database
+            self.logger.info(f"First few vehicles in database: {self.vehicle_db['Vehicle_Number'].head().tolist()}")
+            self.logger.info(f"Total vehicles in database: {len(self.vehicle_db)}")
+            self.logger.info(f"Looking for exact match: '{vehicle_number}'")
+            
+            vehicle_details = self.get_vehicle_details(vehicle_number)
+            if vehicle_details is None:
+                self.logger.error(f"Cannot process violation: Vehicle {vehicle_number} not found")
                 return False
 
             # Get authority details
-            authority_details = self.get_authority_details(violation_data['Location'])
-            if not authority_details:
-                self.logger.error(f"Cannot process violation: No authority found for {violation_data['Location']}")
+            location = violation_data['Location']
+            authority_details = self.get_authority_details(location)
+            if authority_details is None:
+                self.logger.error(f"Cannot process violation: No authority found for location {location}")
                 return False
 
             # Compose messages
@@ -193,14 +207,18 @@ class NotificationSystem:
             authority_message = self.compose_authority_message(violation_data, vehicle_details)
 
             # Send notifications
-            if self.send_notification('violator', vehicle_details['phone'], violator_message):
-                self.log_notification('violator', vehicle_details, violator_message)
+            if not self.simulation_mode:
+                self.send_notification('violator', vehicle_details['phone'], violator_message)
+                self.send_notification('authority', authority_details['phone'], authority_message)
+            else:
+                self.logger.info(f"[SIMULATION] Would send to violator ({vehicle_details['phone']}): {violator_message}")
+                self.logger.info(f"[SIMULATION] Would send to authority ({authority_details['phone']}): {authority_message}")
 
-            if self.send_notification('authority', authority_details['phone'], authority_message):
-                self.log_notification('authority', authority_details, authority_message)
+            # Log notifications
+            self.log_notification('violator', vehicle_details, violator_message)
+            self.log_notification('authority', authority_details, authority_message)
 
             return True
-            
         except Exception as e:
             self.logger.error(f"Error processing violation: {e}")
             return False

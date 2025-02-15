@@ -1275,3 +1275,27 @@ Fine Amount: Rs. 500
 2025-02-15 15:34:07,294 - WARNING - Vehicle UP32GG1010 not found in database
 2025-02-15 15:34:07,296 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
 2025-02-15 15:34:07,298 - INFO - Processed 0 out of 10 violations
+2025-02-15 15:59:25,405 - INFO - Successfully loaded all datasets
+2025-02-15 15:59:25,405 - INFO - Loaded 99 vehicles, 10 violations, and 10 authorities
+2025-02-15 15:59:25,406 - INFO - Starting to process all violations
+2025-02-15 15:59:25,408 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 15:59:25,408 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 15:59:25,409 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 15:59:25,409 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 15:59:25,409 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 15:59:25,411 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 15:59:25,412 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 15:59:25,413 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 15:59:25,415 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 15:59:25,415 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 15:59:25,418 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 15:59:25,418 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 15:59:25,420 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 15:59:25,420 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 15:59:25,422 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 15:59:25,425 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 15:59:25,428 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 15:59:25,429 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 15:59:25,431 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 15:59:25,431 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 15:59:25,431 - INFO - Processed 0 out of 10 violations
