@@ -35,6 +35,7 @@ ENV/
 
 # Project specific
 *.mp4
+# Uncommented these to include model and violations
 violations/
 *.pt
 output_video.mp4

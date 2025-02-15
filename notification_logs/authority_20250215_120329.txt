@@ -1,0 +1,13 @@
+Timestamp: 2025-02-15 12:03:29
+Recipient Type: authority
+Recipient Details: {'name': 'Lucknow Traffic Police Zone 10', 'phone': '+919876540010', 'email': 'transport.traffic@police.gov.in'}
+Message:
+New Traffic Violation Detected
+Vehicle Number: UP32ST7890
+Violation Type: No Helmet
+Location: Transport Nagar
+Time: 2025-02-15 09:05:00
+Vehicle Owner: Pooja Sharma
+Owner Contact: +919812345610
+Owner Address: 741 Transport Nagar
+Fine Amount: Rs. 500

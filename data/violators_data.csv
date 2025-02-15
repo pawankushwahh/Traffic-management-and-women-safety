@@ -1,0 +1,11 @@
+Vehicle_Number,Violation_Type,Location,Violation_Time,Fine_Amount
+UP32UV1111,No Helmet,Hazratganj,2025-02-15 08:20:00,500
+UP32WX2222,Wrong Side Driving,Alambagh,2025-02-15 08:25:00,1000
+UP32YZ3333,Signal Jump,Indira Nagar,2025-02-15 08:30:00,1500
+UP32AA4444,No Helmet,Gomti Nagar,2025-02-15 08:35:00,500
+UP32BB5555,Wrong Side Driving,Charbagh,2025-02-15 08:40:00,1000
+UP32CC6666,Signal Jump,Aliganj,2025-02-15 08:45:00,1500
+UP32DD7777,No Helmet,Mahanagar,2025-02-15 08:50:00,500
+UP32EE8888,Wrong Side Driving,Aminabad,2025-02-15 08:55:00,1000
+UP32FF9999,Signal Jump,Krishna Nagar,2025-02-15 09:00:00,1500
+UP32GG1010,No Helmet,Transport Nagar,2025-02-15 09:05:00,500

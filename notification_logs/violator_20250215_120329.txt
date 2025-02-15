@@ -1,0 +1,12 @@
+Timestamp: 2025-02-15 12:03:29
+Recipient Type: violator
+Recipient Details: {'owner_name': 'Pooja Sharma', 'phone': '+919812345610', 'address': '741 Transport Nagar'}
+Message:
+Traffic Violation Notice
+Dear Pooja Sharma,
+Your vehicle (UP32ST7890) was detected violating traffic rules:
+Violation: No Helmet
+Location: Transport Nagar
+Time: 2025-02-15 09:05:00
+Fine Amount: Rs. 500
+Please pay the fine within 7 days to avoid additional penalties.

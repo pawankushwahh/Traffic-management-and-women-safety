@@ -1,0 +1,1277 @@
+2025-02-15 11:43:44,884 - INFO - Successfully loaded all datasets
+2025-02-15 11:43:44,886 - INFO - Starting to process all violations
+2025-02-15 11:43:44,893 - WARNING - Vehicle MH12DE3456 not found in database
+2025-02-15 11:43:44,894 - ERROR - Cannot process violation: Vehicle MH12DE3456 not found
+2025-02-15 11:43:44,895 - WARNING - Vehicle KA01AB1234 not found in database
+2025-02-15 11:43:44,895 - ERROR - Cannot process violation: Vehicle KA01AB1234 not found
+2025-02-15 11:43:44,895 - WARNING - Vehicle DL02CD5678 not found in database
+2025-02-15 11:43:44,896 - ERROR - Cannot process violation: Vehicle DL02CD5678 not found
+2025-02-15 11:43:44,897 - WARNING - Vehicle TN03EF9012 not found in database
+2025-02-15 11:43:44,897 - ERROR - Cannot process violation: Vehicle TN03EF9012 not found
+2025-02-15 11:43:44,897 - WARNING - Vehicle GJ04GH3456 not found in database
+2025-02-15 11:43:44,898 - ERROR - Cannot process violation: Vehicle GJ04GH3456 not found
+2025-02-15 11:43:44,899 - WARNING - Vehicle UP05IJ7890 not found in database
+2025-02-15 11:43:44,899 - ERROR - Cannot process violation: Vehicle UP05IJ7890 not found
+2025-02-15 11:43:44,900 - WARNING - Vehicle KL06KL1234 not found in database
+2025-02-15 11:43:44,900 - ERROR - Cannot process violation: Vehicle KL06KL1234 not found
+2025-02-15 11:43:44,901 - WARNING - Vehicle MP07MN5678 not found in database
+2025-02-15 11:43:44,901 - ERROR - Cannot process violation: Vehicle MP07MN5678 not found
+2025-02-15 11:43:44,902 - WARNING - Vehicle AP08OP9012 not found in database
+2025-02-15 11:43:44,902 - ERROR - Cannot process violation: Vehicle AP08OP9012 not found
+2025-02-15 11:43:44,903 - WARNING - Vehicle RJ09QR3456 not found in database
+2025-02-15 11:43:44,903 - ERROR - Cannot process violation: Vehicle RJ09QR3456 not found
+2025-02-15 11:43:44,903 - WARNING - Vehicle UP10XY5678 not found in database
+2025-02-15 11:43:44,903 - ERROR - Cannot process violation: Vehicle UP10XY5678 not found
+2025-02-15 11:43:44,904 - WARNING - Vehicle UP11AB7890 not found in database
+2025-02-15 11:43:44,904 - ERROR - Cannot process violation: Vehicle UP11AB7890 not found
+2025-02-15 11:43:44,905 - WARNING - Vehicle UP12CD9012 not found in database
+2025-02-15 11:43:44,905 - ERROR - Cannot process violation: Vehicle UP12CD9012 not found
+2025-02-15 11:43:44,905 - WARNING - Vehicle UP13EF3456 not found in database
+2025-02-15 11:43:44,905 - ERROR - Cannot process violation: Vehicle UP13EF3456 not found
+2025-02-15 11:43:44,907 - WARNING - Vehicle UP14GH7890 not found in database
+2025-02-15 11:43:44,907 - ERROR - Cannot process violation: Vehicle UP14GH7890 not found
+2025-02-15 11:43:44,907 - WARNING - Vehicle UP15IJ1234 not found in database
+2025-02-15 11:43:44,907 - ERROR - Cannot process violation: Vehicle UP15IJ1234 not found
+2025-02-15 11:43:44,908 - WARNING - Vehicle UP16KL5678 not found in database
+2025-02-15 11:43:44,908 - ERROR - Cannot process violation: Vehicle UP16KL5678 not found
+2025-02-15 11:43:44,909 - WARNING - Vehicle UP17MN9012 not found in database
+2025-02-15 11:43:44,909 - ERROR - Cannot process violation: Vehicle UP17MN9012 not found
+2025-02-15 11:43:44,909 - WARNING - Vehicle UP18OP3456 not found in database
+2025-02-15 11:43:44,910 - ERROR - Cannot process violation: Vehicle UP18OP3456 not found
+2025-02-15 11:43:44,911 - WARNING - Vehicle UP19QR7890 not found in database
+2025-02-15 11:43:44,911 - ERROR - Cannot process violation: Vehicle UP19QR7890 not found
+2025-02-15 11:43:44,911 - WARNING - Vehicle UP20ST1234 not found in database
+2025-02-15 11:43:44,912 - ERROR - Cannot process violation: Vehicle UP20ST1234 not found
+2025-02-15 11:43:44,912 - WARNING - Vehicle UP21UV5678 not found in database
+2025-02-15 11:43:44,912 - ERROR - Cannot process violation: Vehicle UP21UV5678 not found
+2025-02-15 11:43:44,913 - WARNING - Vehicle UP22WX9012 not found in database
+2025-02-15 11:43:44,913 - ERROR - Cannot process violation: Vehicle UP22WX9012 not found
+2025-02-15 11:43:44,914 - WARNING - Vehicle UP23YZ3456 not found in database
+2025-02-15 11:43:44,914 - ERROR - Cannot process violation: Vehicle UP23YZ3456 not found
+2025-02-15 11:43:44,916 - WARNING - Vehicle UP24AB7890 not found in database
+2025-02-15 11:43:44,916 - ERROR - Cannot process violation: Vehicle UP24AB7890 not found
+2025-02-15 11:43:44,917 - WARNING - Vehicle UP25CD1234 not found in database
+2025-02-15 11:43:44,918 - ERROR - Cannot process violation: Vehicle UP25CD1234 not found
+2025-02-15 11:43:44,918 - WARNING - Vehicle UP26EF5678 not found in database
+2025-02-15 11:43:44,918 - ERROR - Cannot process violation: Vehicle UP26EF5678 not found
+2025-02-15 11:43:44,919 - WARNING - Vehicle UP27GH9012 not found in database
+2025-02-15 11:43:44,919 - ERROR - Cannot process violation: Vehicle UP27GH9012 not found
+2025-02-15 11:43:44,920 - WARNING - Vehicle UP28IJ3456 not found in database
+2025-02-15 11:43:44,921 - ERROR - Cannot process violation: Vehicle UP28IJ3456 not found
+2025-02-15 11:43:44,922 - WARNING - Vehicle UP29KL7890 not found in database
+2025-02-15 11:43:44,922 - ERROR - Cannot process violation: Vehicle UP29KL7890 not found
+2025-02-15 11:43:44,922 - INFO - Processed 0 out of 30 violations
+2025-02-15 11:44:08,679 - INFO - Successfully loaded all datasets
+2025-02-15 11:44:08,680 - INFO - Starting to process all violations
+2025-02-15 11:44:08,683 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 11:44:08,684 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 11:44:08,685 - WARNING - Vehicle UP32AA1001 not found in database
+2025-02-15 11:44:08,685 - ERROR - Cannot process violation: Vehicle UP32AA1001 not found
+2025-02-15 11:44:08,685 - WARNING - Vehicle UP32BB2002 not found in database
+2025-02-15 11:44:08,685 - ERROR - Cannot process violation: Vehicle UP32BB2002 not found
+2025-02-15 11:44:08,686 - WARNING - Vehicle UP32CC3003 not found in database
+2025-02-15 11:44:08,686 - ERROR - Cannot process violation: Vehicle UP32CC3003 not found
+2025-02-15 11:44:08,687 - WARNING - Vehicle UP32DD4004 not found in database
+2025-02-15 11:44:08,688 - ERROR - Cannot process violation: Vehicle UP32DD4004 not found
+2025-02-15 11:44:08,688 - WARNING - Vehicle UP32EE5005 not found in database
+2025-02-15 11:44:08,688 - ERROR - Cannot process violation: Vehicle UP32EE5005 not found
+2025-02-15 11:44:08,690 - WARNING - Vehicle UP32FF6006 not found in database
+2025-02-15 11:44:08,690 - ERROR - Cannot process violation: Vehicle UP32FF6006 not found
+2025-02-15 11:44:08,690 - WARNING - Vehicle UP32GG7007 not found in database
+2025-02-15 11:44:08,691 - ERROR - Cannot process violation: Vehicle UP32GG7007 not found
+2025-02-15 11:44:08,691 - WARNING - Vehicle UP32HH8008 not found in database
+2025-02-15 11:44:08,691 - ERROR - Cannot process violation: Vehicle UP32HH8008 not found
+2025-02-15 11:44:08,692 - WARNING - Vehicle UP32II9009 not found in database
+2025-02-15 11:44:08,692 - ERROR - Cannot process violation: Vehicle UP32II9009 not found
+2025-02-15 11:44:08,694 - WARNING - Vehicle UP32JJ1010 not found in database
+2025-02-15 11:44:08,694 - ERROR - Cannot process violation: Vehicle UP32JJ1010 not found
+2025-02-15 11:44:08,694 - WARNING - Vehicle UP32KK1111 not found in database
+2025-02-15 11:44:08,695 - ERROR - Cannot process violation: Vehicle UP32KK1111 not found
+2025-02-15 11:44:08,695 - WARNING - Vehicle UP32LL1212 not found in database
+2025-02-15 11:44:08,695 - ERROR - Cannot process violation: Vehicle UP32LL1212 not found
+2025-02-15 11:44:08,696 - WARNING - Vehicle UP32MM1313 not found in database
+2025-02-15 11:44:08,696 - ERROR - Cannot process violation: Vehicle UP32MM1313 not found
+2025-02-15 11:44:08,697 - WARNING - Vehicle UP32NN1414 not found in database
+2025-02-15 11:44:08,698 - ERROR - Cannot process violation: Vehicle UP32NN1414 not found
+2025-02-15 11:44:08,698 - WARNING - Vehicle UP32OO1515 not found in database
+2025-02-15 11:44:08,699 - ERROR - Cannot process violation: Vehicle UP32OO1515 not found
+2025-02-15 11:44:08,701 - WARNING - Vehicle UP32PP1616 not found in database
+2025-02-15 11:44:08,701 - ERROR - Cannot process violation: Vehicle UP32PP1616 not found
+2025-02-15 11:44:08,702 - WARNING - Vehicle UP32QQ1717 not found in database
+2025-02-15 11:44:08,702 - ERROR - Cannot process violation: Vehicle UP32QQ1717 not found
+2025-02-15 11:44:08,702 - WARNING - Vehicle UP32RR1818 not found in database
+2025-02-15 11:44:08,703 - ERROR - Cannot process violation: Vehicle UP32RR1818 not found
+2025-02-15 11:44:08,704 - WARNING - Vehicle UP32SS1919 not found in database
+2025-02-15 11:44:08,704 - ERROR - Cannot process violation: Vehicle UP32SS1919 not found
+2025-02-15 11:44:08,704 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:45:10,565 - INFO - Successfully loaded all datasets
+2025-02-15 11:45:10,565 - INFO - Loaded 42 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:45:10,566 - INFO - Starting to process all violations
+2025-02-15 11:45:10,567 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 11:45:10,567 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 11:45:10,569 - WARNING - Vehicle UP32AA1001 not found in database
+2025-02-15 11:45:10,569 - ERROR - Cannot process violation: Vehicle UP32AA1001 not found
+2025-02-15 11:45:10,570 - WARNING - Vehicle UP32BB2002 not found in database
+2025-02-15 11:45:10,570 - ERROR - Cannot process violation: Vehicle UP32BB2002 not found
+2025-02-15 11:45:10,571 - WARNING - Vehicle UP32CC3003 not found in database
+2025-02-15 11:45:10,571 - ERROR - Cannot process violation: Vehicle UP32CC3003 not found
+2025-02-15 11:45:10,571 - WARNING - Vehicle UP32DD4004 not found in database
+2025-02-15 11:45:10,571 - ERROR - Cannot process violation: Vehicle UP32DD4004 not found
+2025-02-15 11:45:10,574 - WARNING - Vehicle UP32EE5005 not found in database
+2025-02-15 11:45:10,574 - ERROR - Cannot process violation: Vehicle UP32EE5005 not found
+2025-02-15 11:45:10,574 - WARNING - Vehicle UP32FF6006 not found in database
+2025-02-15 11:45:10,574 - ERROR - Cannot process violation: Vehicle UP32FF6006 not found
+2025-02-15 11:45:10,575 - WARNING - Vehicle UP32GG7007 not found in database
+2025-02-15 11:45:10,576 - ERROR - Cannot process violation: Vehicle UP32GG7007 not found
+2025-02-15 11:45:10,576 - WARNING - Vehicle UP32HH8008 not found in database
+2025-02-15 11:45:10,576 - ERROR - Cannot process violation: Vehicle UP32HH8008 not found
+2025-02-15 11:45:10,577 - WARNING - Vehicle UP32II9009 not found in database
+2025-02-15 11:45:10,577 - ERROR - Cannot process violation: Vehicle UP32II9009 not found
+2025-02-15 11:45:10,579 - WARNING - Vehicle UP32JJ1010 not found in database
+2025-02-15 11:45:10,579 - ERROR - Cannot process violation: Vehicle UP32JJ1010 not found
+2025-02-15 11:45:10,579 - WARNING - Vehicle UP32KK1111 not found in database
+2025-02-15 11:45:10,580 - ERROR - Cannot process violation: Vehicle UP32KK1111 not found
+2025-02-15 11:45:10,580 - WARNING - Vehicle UP32LL1212 not found in database
+2025-02-15 11:45:10,580 - ERROR - Cannot process violation: Vehicle UP32LL1212 not found
+2025-02-15 11:45:10,582 - WARNING - Vehicle UP32MM1313 not found in database
+2025-02-15 11:45:10,582 - ERROR - Cannot process violation: Vehicle UP32MM1313 not found
+2025-02-15 11:45:10,582 - WARNING - Vehicle UP32NN1414 not found in database
+2025-02-15 11:45:10,583 - ERROR - Cannot process violation: Vehicle UP32NN1414 not found
+2025-02-15 11:45:10,583 - WARNING - Vehicle UP32OO1515 not found in database
+2025-02-15 11:45:10,584 - ERROR - Cannot process violation: Vehicle UP32OO1515 not found
+2025-02-15 11:45:10,586 - WARNING - Vehicle UP32PP1616 not found in database
+2025-02-15 11:45:10,586 - ERROR - Cannot process violation: Vehicle UP32PP1616 not found
+2025-02-15 11:45:10,587 - WARNING - Vehicle UP32QQ1717 not found in database
+2025-02-15 11:45:10,587 - ERROR - Cannot process violation: Vehicle UP32QQ1717 not found
+2025-02-15 11:45:10,588 - WARNING - Vehicle UP32RR1818 not found in database
+2025-02-15 11:45:10,589 - ERROR - Cannot process violation: Vehicle UP32RR1818 not found
+2025-02-15 11:45:10,589 - WARNING - Vehicle UP32SS1919 not found in database
+2025-02-15 11:45:10,589 - ERROR - Cannot process violation: Vehicle UP32SS1919 not found
+2025-02-15 11:45:10,590 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:45:45,177 - INFO - Successfully loaded all datasets
+2025-02-15 11:45:45,177 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:45:45,177 - INFO - Starting to process all violations
+2025-02-15 11:45:45,180 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 11:45:45,180 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 11:45:45,181 - WARNING - Vehicle UP32AA1001 not found in database
+2025-02-15 11:45:45,181 - ERROR - Cannot process violation: Vehicle UP32AA1001 not found
+2025-02-15 11:45:45,181 - WARNING - Vehicle UP32BB2002 not found in database
+2025-02-15 11:45:45,182 - ERROR - Cannot process violation: Vehicle UP32BB2002 not found
+2025-02-15 11:45:45,182 - WARNING - Vehicle UP32CC3003 not found in database
+2025-02-15 11:45:45,182 - ERROR - Cannot process violation: Vehicle UP32CC3003 not found
+2025-02-15 11:45:45,182 - WARNING - Vehicle UP32DD4004 not found in database
+2025-02-15 11:45:45,183 - ERROR - Cannot process violation: Vehicle UP32DD4004 not found
+2025-02-15 11:45:45,183 - WARNING - Vehicle UP32EE5005 not found in database
+2025-02-15 11:45:45,183 - ERROR - Cannot process violation: Vehicle UP32EE5005 not found
+2025-02-15 11:45:45,184 - WARNING - Vehicle UP32FF6006 not found in database
+2025-02-15 11:45:45,184 - ERROR - Cannot process violation: Vehicle UP32FF6006 not found
+2025-02-15 11:45:45,185 - WARNING - Vehicle UP32GG7007 not found in database
+2025-02-15 11:45:45,186 - ERROR - Cannot process violation: Vehicle UP32GG7007 not found
+2025-02-15 11:45:45,187 - WARNING - Vehicle UP32HH8008 not found in database
+2025-02-15 11:45:45,187 - ERROR - Cannot process violation: Vehicle UP32HH8008 not found
+2025-02-15 11:45:45,188 - WARNING - Vehicle UP32II9009 not found in database
+2025-02-15 11:45:45,188 - ERROR - Cannot process violation: Vehicle UP32II9009 not found
+2025-02-15 11:45:45,188 - WARNING - Vehicle UP32JJ1010 not found in database
+2025-02-15 11:45:45,190 - ERROR - Cannot process violation: Vehicle UP32JJ1010 not found
+2025-02-15 11:45:45,190 - WARNING - Vehicle UP32KK1111 not found in database
+2025-02-15 11:45:45,190 - ERROR - Cannot process violation: Vehicle UP32KK1111 not found
+2025-02-15 11:45:45,191 - WARNING - Vehicle UP32LL1212 not found in database
+2025-02-15 11:45:45,191 - ERROR - Cannot process violation: Vehicle UP32LL1212 not found
+2025-02-15 11:45:45,191 - WARNING - Vehicle UP32MM1313 not found in database
+2025-02-15 11:45:45,191 - ERROR - Cannot process violation: Vehicle UP32MM1313 not found
+2025-02-15 11:45:45,192 - WARNING - Vehicle UP32NN1414 not found in database
+2025-02-15 11:45:45,192 - ERROR - Cannot process violation: Vehicle UP32NN1414 not found
+2025-02-15 11:45:45,193 - WARNING - Vehicle UP32OO1515 not found in database
+2025-02-15 11:45:45,193 - ERROR - Cannot process violation: Vehicle UP32OO1515 not found
+2025-02-15 11:45:45,193 - WARNING - Vehicle UP32PP1616 not found in database
+2025-02-15 11:45:45,193 - ERROR - Cannot process violation: Vehicle UP32PP1616 not found
+2025-02-15 11:45:45,195 - WARNING - Vehicle UP32QQ1717 not found in database
+2025-02-15 11:45:45,195 - ERROR - Cannot process violation: Vehicle UP32QQ1717 not found
+2025-02-15 11:45:45,196 - WARNING - Vehicle UP32RR1818 not found in database
+2025-02-15 11:45:45,196 - ERROR - Cannot process violation: Vehicle UP32RR1818 not found
+2025-02-15 11:45:45,196 - WARNING - Vehicle UP32SS1919 not found in database
+2025-02-15 11:45:45,196 - ERROR - Cannot process violation: Vehicle UP32SS1919 not found
+2025-02-15 11:45:45,196 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:46:18,852 - INFO - Vehicle numbers in database:
+2025-02-15 11:46:18,854 - INFO - 'Neha Tripathi'
+2025-02-15 11:46:18,854 - INFO - 'Sanjay Mishra'
+2025-02-15 11:46:18,854 - INFO - 'Sunita Verma'
+2025-02-15 11:46:18,854 - INFO - 'Anil Yadav'
+2025-02-15 11:46:18,854 - INFO - 'Meenakshi Tiwari'
+2025-02-15 11:46:18,855 - INFO - 'Ramesh Chandra'
+2025-02-15 11:46:18,855 - INFO - 'Pooja Singh'
+2025-02-15 11:46:18,855 - INFO - 'Amit Srivastava'
+2025-02-15 11:46:18,855 - INFO - 'Kiran Gupta'
+2025-02-15 11:46:18,855 - INFO - 'Vivek Dubey'
+2025-02-15 11:46:18,855 - INFO - 'Neha Shukla'
+2025-02-15 11:46:18,855 - INFO - 'Vinod Tiwari'
+2025-02-15 11:46:18,856 - INFO - 'Sneha Saxena'
+2025-02-15 11:46:18,856 - INFO - 'Ravi Prakash'
+2025-02-15 11:46:18,856 - INFO - 'Swati Singh'
+2025-02-15 11:46:18,856 - INFO - 'Sachin Sharma'
+2025-02-15 11:46:18,856 - INFO - 'Priya Trivedi'
+2025-02-15 11:46:18,856 - INFO - 'Deepak Maurya'
+2025-02-15 11:46:18,856 - INFO - 'Anjali Pandey'
+2025-02-15 11:46:18,856 - INFO - 'Manoj Gupta'
+2025-02-15 11:46:18,856 - INFO - 'Kajal Yadav'
+2025-02-15 11:46:18,856 - INFO - 'Ajay Srivastava'
+2025-02-15 11:46:18,857 - INFO - 'Ritika Sharma'
+2025-02-15 11:46:18,857 - INFO - 
+Violator vehicle numbers:
+2025-02-15 11:46:18,857 - INFO - 'UP32KL1234'
+2025-02-15 11:46:18,858 - INFO - 'UP32AA1001'
+2025-02-15 11:46:18,858 - INFO - 'UP32BB2002'
+2025-02-15 11:46:18,858 - INFO - 'UP32CC3003'
+2025-02-15 11:46:18,858 - INFO - 'UP32DD4004'
+2025-02-15 11:46:18,858 - INFO - 'UP32EE5005'
+2025-02-15 11:46:18,858 - INFO - 'UP32FF6006'
+2025-02-15 11:46:18,858 - INFO - 'UP32GG7007'
+2025-02-15 11:46:18,858 - INFO - 'UP32HH8008'
+2025-02-15 11:46:18,858 - INFO - 'UP32II9009'
+2025-02-15 11:46:18,858 - INFO - 'UP32JJ1010'
+2025-02-15 11:46:18,859 - INFO - 'UP32KK1111'
+2025-02-15 11:46:18,859 - INFO - 'UP32LL1212'
+2025-02-15 11:46:18,859 - INFO - 'UP32MM1313'
+2025-02-15 11:46:18,859 - INFO - 'UP32NN1414'
+2025-02-15 11:46:18,859 - INFO - 'UP32OO1515'
+2025-02-15 11:46:18,859 - INFO - 'UP32PP1616'
+2025-02-15 11:46:18,859 - INFO - 'UP32QQ1717'
+2025-02-15 11:46:18,859 - INFO - 'UP32RR1818'
+2025-02-15 11:46:18,859 - INFO - 'UP32SS1919'
+2025-02-15 11:46:18,860 - INFO - Successfully loaded all datasets
+2025-02-15 11:46:18,860 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:46:18,861 - INFO - Starting to process all violations
+2025-02-15 11:46:18,862 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 11:46:18,863 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 11:46:18,863 - WARNING - Vehicle UP32AA1001 not found in database
+2025-02-15 11:46:18,864 - ERROR - Cannot process violation: Vehicle UP32AA1001 not found
+2025-02-15 11:46:18,864 - WARNING - Vehicle UP32BB2002 not found in database
+2025-02-15 11:46:18,865 - ERROR - Cannot process violation: Vehicle UP32BB2002 not found
+2025-02-15 11:46:18,866 - WARNING - Vehicle UP32CC3003 not found in database
+2025-02-15 11:46:18,866 - ERROR - Cannot process violation: Vehicle UP32CC3003 not found
+2025-02-15 11:46:18,867 - WARNING - Vehicle UP32DD4004 not found in database
+2025-02-15 11:46:18,867 - ERROR - Cannot process violation: Vehicle UP32DD4004 not found
+2025-02-15 11:46:18,868 - WARNING - Vehicle UP32EE5005 not found in database
+2025-02-15 11:46:18,868 - ERROR - Cannot process violation: Vehicle UP32EE5005 not found
+2025-02-15 11:46:18,869 - WARNING - Vehicle UP32FF6006 not found in database
+2025-02-15 11:46:18,869 - ERROR - Cannot process violation: Vehicle UP32FF6006 not found
+2025-02-15 11:46:18,870 - WARNING - Vehicle UP32GG7007 not found in database
+2025-02-15 11:46:18,871 - ERROR - Cannot process violation: Vehicle UP32GG7007 not found
+2025-02-15 11:46:18,872 - WARNING - Vehicle UP32HH8008 not found in database
+2025-02-15 11:46:18,872 - ERROR - Cannot process violation: Vehicle UP32HH8008 not found
+2025-02-15 11:46:18,873 - WARNING - Vehicle UP32II9009 not found in database
+2025-02-15 11:46:18,873 - ERROR - Cannot process violation: Vehicle UP32II9009 not found
+2025-02-15 11:46:18,874 - WARNING - Vehicle UP32JJ1010 not found in database
+2025-02-15 11:46:18,874 - ERROR - Cannot process violation: Vehicle UP32JJ1010 not found
+2025-02-15 11:46:18,875 - WARNING - Vehicle UP32KK1111 not found in database
+2025-02-15 11:46:18,875 - ERROR - Cannot process violation: Vehicle UP32KK1111 not found
+2025-02-15 11:46:18,876 - WARNING - Vehicle UP32LL1212 not found in database
+2025-02-15 11:46:18,876 - ERROR - Cannot process violation: Vehicle UP32LL1212 not found
+2025-02-15 11:46:18,877 - WARNING - Vehicle UP32MM1313 not found in database
+2025-02-15 11:46:18,877 - ERROR - Cannot process violation: Vehicle UP32MM1313 not found
+2025-02-15 11:46:18,878 - WARNING - Vehicle UP32NN1414 not found in database
+2025-02-15 11:46:18,878 - ERROR - Cannot process violation: Vehicle UP32NN1414 not found
+2025-02-15 11:46:18,879 - WARNING - Vehicle UP32OO1515 not found in database
+2025-02-15 11:46:18,879 - ERROR - Cannot process violation: Vehicle UP32OO1515 not found
+2025-02-15 11:46:18,879 - WARNING - Vehicle UP32PP1616 not found in database
+2025-02-15 11:46:18,880 - ERROR - Cannot process violation: Vehicle UP32PP1616 not found
+2025-02-15 11:46:18,881 - WARNING - Vehicle UP32QQ1717 not found in database
+2025-02-15 11:46:18,881 - ERROR - Cannot process violation: Vehicle UP32QQ1717 not found
+2025-02-15 11:46:18,881 - WARNING - Vehicle UP32RR1818 not found in database
+2025-02-15 11:46:18,882 - ERROR - Cannot process violation: Vehicle UP32RR1818 not found
+2025-02-15 11:46:18,882 - WARNING - Vehicle UP32SS1919 not found in database
+2025-02-15 11:46:18,882 - ERROR - Cannot process violation: Vehicle UP32SS1919 not found
+2025-02-15 11:46:18,882 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:46:45,730 - INFO - Vehicle numbers in database:
+2025-02-15 11:46:45,730 - INFO - 'UP32KL1234'
+2025-02-15 11:46:45,730 - INFO - 'UP32AA1001'
+2025-02-15 11:46:45,730 - INFO - 'UP32BB2002'
+2025-02-15 11:46:45,731 - INFO - 'UP32CC3003'
+2025-02-15 11:46:45,731 - INFO - 'UP32DD4004'
+2025-02-15 11:46:45,731 - INFO - 'UP32EE5005'
+2025-02-15 11:46:45,731 - INFO - 'UP32FF6006'
+2025-02-15 11:46:45,731 - INFO - 'UP32GG7007'
+2025-02-15 11:46:45,731 - INFO - 'UP32HH8008'
+2025-02-15 11:46:45,731 - INFO - 'UP32II9009'
+2025-02-15 11:46:45,731 - INFO - 'UP32JJ1010'
+2025-02-15 11:46:45,731 - INFO - 'UP32KK1111'
+2025-02-15 11:46:45,732 - INFO - 'UP32LL1212'
+2025-02-15 11:46:45,732 - INFO - 'UP32MM1313'
+2025-02-15 11:46:45,732 - INFO - 'UP32NN1414'
+2025-02-15 11:46:45,732 - INFO - 'UP32OO1515'
+2025-02-15 11:46:45,732 - INFO - 'UP32PP1616'
+2025-02-15 11:46:45,732 - INFO - 'UP32QQ1717'
+2025-02-15 11:46:45,732 - INFO - 'UP32RR1818'
+2025-02-15 11:46:45,732 - INFO - 'UP32SS1919'
+2025-02-15 11:46:45,732 - INFO - 'UP32TT2020'
+2025-02-15 11:46:45,732 - INFO - 'UP32UU2121'
+2025-02-15 11:46:45,733 - INFO - 'UP32VV2222'
+2025-02-15 11:46:45,733 - INFO - 
+Violator vehicle numbers:
+2025-02-15 11:46:45,733 - INFO - 'UP32KL1234'
+2025-02-15 11:46:45,733 - INFO - 'UP32AA1001'
+2025-02-15 11:46:45,734 - INFO - 'UP32BB2002'
+2025-02-15 11:46:45,734 - INFO - 'UP32CC3003'
+2025-02-15 11:46:45,734 - INFO - 'UP32DD4004'
+2025-02-15 11:46:45,734 - INFO - 'UP32EE5005'
+2025-02-15 11:46:45,734 - INFO - 'UP32FF6006'
+2025-02-15 11:46:45,734 - INFO - 'UP32GG7007'
+2025-02-15 11:46:45,734 - INFO - 'UP32HH8008'
+2025-02-15 11:46:45,734 - INFO - 'UP32II9009'
+2025-02-15 11:46:45,734 - INFO - 'UP32JJ1010'
+2025-02-15 11:46:45,734 - INFO - 'UP32KK1111'
+2025-02-15 11:46:45,735 - INFO - 'UP32LL1212'
+2025-02-15 11:46:45,735 - INFO - 'UP32MM1313'
+2025-02-15 11:46:45,735 - INFO - 'UP32NN1414'
+2025-02-15 11:46:45,735 - INFO - 'UP32OO1515'
+2025-02-15 11:46:45,735 - INFO - 'UP32PP1616'
+2025-02-15 11:46:45,735 - INFO - 'UP32QQ1717'
+2025-02-15 11:46:45,735 - INFO - 'UP32RR1818'
+2025-02-15 11:46:45,735 - INFO - 'UP32SS1919'
+2025-02-15 11:46:45,735 - INFO - Successfully loaded all datasets
+2025-02-15 11:46:45,735 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:46:45,736 - INFO - Starting to process all violations
+2025-02-15 11:46:45,744 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:46:45,745 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:46:45,746 - WARNING - No authority found for location: Lucknow Alambagh
+2025-02-15 11:46:45,747 - ERROR - Cannot process violation: No authority found for Lucknow Alambagh
+2025-02-15 11:46:45,748 - WARNING - No authority found for location: Lucknow Indira Nagar
+2025-02-15 11:46:45,748 - ERROR - Cannot process violation: No authority found for Lucknow Indira Nagar
+2025-02-15 11:46:45,749 - WARNING - No authority found for location: Lucknow Charbagh
+2025-02-15 11:46:45,749 - ERROR - Cannot process violation: No authority found for Lucknow Charbagh
+2025-02-15 11:46:45,750 - WARNING - No authority found for location: Lucknow Gomti Nagar
+2025-02-15 11:46:45,750 - ERROR - Cannot process violation: No authority found for Lucknow Gomti Nagar
+2025-02-15 11:46:45,751 - WARNING - No authority found for location: Lucknow Chowk
+2025-02-15 11:46:45,751 - ERROR - Cannot process violation: No authority found for Lucknow Chowk
+2025-02-15 11:46:45,752 - WARNING - No authority found for location: Lucknow Aliganj
+2025-02-15 11:46:45,752 - ERROR - Cannot process violation: No authority found for Lucknow Aliganj
+2025-02-15 11:46:45,754 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:46:45,754 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:46:45,756 - WARNING - No authority found for location: Lucknow Faizabad Road
+2025-02-15 11:46:45,756 - ERROR - Cannot process violation: No authority found for Lucknow Faizabad Road
+2025-02-15 11:46:45,758 - WARNING - No authority found for location: Lucknow Ashiyana
+2025-02-15 11:46:45,758 - ERROR - Cannot process violation: No authority found for Lucknow Ashiyana
+2025-02-15 11:46:45,759 - WARNING - No authority found for location: Lucknow Mahanagar
+2025-02-15 11:46:45,759 - ERROR - Cannot process violation: No authority found for Lucknow Mahanagar
+2025-02-15 11:46:45,761 - WARNING - No authority found for location: Lucknow Aminabad
+2025-02-15 11:46:45,761 - ERROR - Cannot process violation: No authority found for Lucknow Aminabad
+2025-02-15 11:46:45,763 - WARNING - No authority found for location: Lucknow Trans Gomti
+2025-02-15 11:46:45,763 - ERROR - Cannot process violation: No authority found for Lucknow Trans Gomti
+2025-02-15 11:46:45,764 - WARNING - No authority found for location: Lucknow Vikas Nagar
+2025-02-15 11:46:45,764 - ERROR - Cannot process violation: No authority found for Lucknow Vikas Nagar
+2025-02-15 11:46:45,767 - WARNING - No authority found for location: Lucknow Jankipuram
+2025-02-15 11:46:45,767 - ERROR - Cannot process violation: No authority found for Lucknow Jankipuram
+2025-02-15 11:46:45,768 - WARNING - No authority found for location: Lucknow Rajajipuram
+2025-02-15 11:46:45,769 - ERROR - Cannot process violation: No authority found for Lucknow Rajajipuram
+2025-02-15 11:46:45,771 - WARNING - No authority found for location: Lucknow Krishna Nagar
+2025-02-15 11:46:45,771 - ERROR - Cannot process violation: No authority found for Lucknow Krishna Nagar
+2025-02-15 11:46:45,773 - WARNING - No authority found for location: Lucknow Bhootnath Market
+2025-02-15 11:46:45,773 - ERROR - Cannot process violation: No authority found for Lucknow Bhootnath Market
+2025-02-15 11:46:45,775 - WARNING - No authority found for location: Lucknow Singarnagar
+2025-02-15 11:46:45,775 - ERROR - Cannot process violation: No authority found for Lucknow Singarnagar
+2025-02-15 11:46:45,776 - WARNING - No authority found for location: Lucknow Tedhi Puliya
+2025-02-15 11:46:45,777 - ERROR - Cannot process violation: No authority found for Lucknow Tedhi Puliya
+2025-02-15 11:46:45,780 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:48:20,937 - INFO - Vehicle numbers in database:
+2025-02-15 11:48:20,938 - INFO - 'UP32KL1234'
+2025-02-15 11:48:20,938 - INFO - 'UP32AA1001'
+2025-02-15 11:48:20,938 - INFO - 'UP32BB2002'
+2025-02-15 11:48:20,938 - INFO - 'UP32CC3003'
+2025-02-15 11:48:20,938 - INFO - 'UP32DD4004'
+2025-02-15 11:48:20,938 - INFO - 'UP32EE5005'
+2025-02-15 11:48:20,939 - INFO - 'UP32FF6006'
+2025-02-15 11:48:20,939 - INFO - 'UP32GG7007'
+2025-02-15 11:48:20,939 - INFO - 'UP32HH8008'
+2025-02-15 11:48:20,939 - INFO - 'UP32II9009'
+2025-02-15 11:48:20,939 - INFO - 'UP32JJ1010'
+2025-02-15 11:48:20,939 - INFO - 'UP32KK1111'
+2025-02-15 11:48:20,939 - INFO - 'UP32LL1212'
+2025-02-15 11:48:20,939 - INFO - 'UP32MM1313'
+2025-02-15 11:48:20,940 - INFO - 'UP32NN1414'
+2025-02-15 11:48:20,940 - INFO - 'UP32OO1515'
+2025-02-15 11:48:20,940 - INFO - 'UP32PP1616'
+2025-02-15 11:48:20,940 - INFO - 'UP32QQ1717'
+2025-02-15 11:48:20,941 - INFO - 'UP32RR1818'
+2025-02-15 11:48:20,942 - INFO - 'UP32SS1919'
+2025-02-15 11:48:20,942 - INFO - 'UP32TT2020'
+2025-02-15 11:48:20,942 - INFO - 'UP32UU2121'
+2025-02-15 11:48:20,942 - INFO - 'UP32VV2222'
+2025-02-15 11:48:20,942 - INFO - 
+Violator vehicle numbers:
+2025-02-15 11:48:20,943 - INFO - 'UP32KL1234'
+2025-02-15 11:48:20,943 - INFO - 'UP32AA1001'
+2025-02-15 11:48:20,943 - INFO - 'UP32BB2002'
+2025-02-15 11:48:20,943 - INFO - 'UP32CC3003'
+2025-02-15 11:48:20,944 - INFO - 'UP32DD4004'
+2025-02-15 11:48:20,944 - INFO - 'UP32EE5005'
+2025-02-15 11:48:20,944 - INFO - 'UP32FF6006'
+2025-02-15 11:48:20,944 - INFO - 'UP32GG7007'
+2025-02-15 11:48:20,944 - INFO - 'UP32HH8008'
+2025-02-15 11:48:20,944 - INFO - 'UP32II9009'
+2025-02-15 11:48:20,944 - INFO - 'UP32JJ1010'
+2025-02-15 11:48:20,944 - INFO - 'UP32KK1111'
+2025-02-15 11:48:20,944 - INFO - 'UP32LL1212'
+2025-02-15 11:48:20,945 - INFO - 'UP32MM1313'
+2025-02-15 11:48:20,945 - INFO - 'UP32NN1414'
+2025-02-15 11:48:20,945 - INFO - 'UP32OO1515'
+2025-02-15 11:48:20,945 - INFO - 'UP32PP1616'
+2025-02-15 11:48:20,945 - INFO - 'UP32QQ1717'
+2025-02-15 11:48:20,946 - INFO - 'UP32RR1818'
+2025-02-15 11:48:20,946 - INFO - 'UP32SS1919'
+2025-02-15 11:48:20,946 - INFO - Successfully loaded all datasets
+2025-02-15 11:48:20,946 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:48:20,946 - INFO - Starting to process all violations
+2025-02-15 11:48:20,948 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:48:20,949 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:48:20,950 - WARNING - No authority found for location: Lucknow Alambagh
+2025-02-15 11:48:20,950 - ERROR - Cannot process violation: No authority found for Lucknow Alambagh
+2025-02-15 11:48:20,951 - WARNING - No authority found for location: Lucknow Indira Nagar
+2025-02-15 11:48:20,951 - ERROR - Cannot process violation: No authority found for Lucknow Indira Nagar
+2025-02-15 11:48:20,952 - WARNING - No authority found for location: Lucknow Charbagh
+2025-02-15 11:48:20,952 - ERROR - Cannot process violation: No authority found for Lucknow Charbagh
+2025-02-15 11:48:20,953 - WARNING - No authority found for location: Lucknow Gomti Nagar
+2025-02-15 11:48:20,953 - ERROR - Cannot process violation: No authority found for Lucknow Gomti Nagar
+2025-02-15 11:48:20,954 - WARNING - No authority found for location: Lucknow Chowk
+2025-02-15 11:48:20,955 - ERROR - Cannot process violation: No authority found for Lucknow Chowk
+2025-02-15 11:48:20,956 - WARNING - No authority found for location: Lucknow Aliganj
+2025-02-15 11:48:20,956 - ERROR - Cannot process violation: No authority found for Lucknow Aliganj
+2025-02-15 11:48:20,958 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:48:20,959 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:48:20,961 - WARNING - No authority found for location: Lucknow Faizabad Road
+2025-02-15 11:48:20,961 - ERROR - Cannot process violation: No authority found for Lucknow Faizabad Road
+2025-02-15 11:48:20,963 - WARNING - No authority found for location: Lucknow Ashiyana
+2025-02-15 11:48:20,963 - ERROR - Cannot process violation: No authority found for Lucknow Ashiyana
+2025-02-15 11:48:20,965 - WARNING - No authority found for location: Lucknow Mahanagar
+2025-02-15 11:48:20,965 - ERROR - Cannot process violation: No authority found for Lucknow Mahanagar
+2025-02-15 11:48:20,967 - WARNING - No authority found for location: Lucknow Aminabad
+2025-02-15 11:48:20,967 - ERROR - Cannot process violation: No authority found for Lucknow Aminabad
+2025-02-15 11:48:20,968 - WARNING - No authority found for location: Lucknow Trans Gomti
+2025-02-15 11:48:20,969 - ERROR - Cannot process violation: No authority found for Lucknow Trans Gomti
+2025-02-15 11:48:20,970 - WARNING - No authority found for location: Lucknow Vikas Nagar
+2025-02-15 11:48:20,970 - ERROR - Cannot process violation: No authority found for Lucknow Vikas Nagar
+2025-02-15 11:48:20,972 - WARNING - No authority found for location: Lucknow Jankipuram
+2025-02-15 11:48:20,972 - ERROR - Cannot process violation: No authority found for Lucknow Jankipuram
+2025-02-15 11:48:20,973 - WARNING - No authority found for location: Lucknow Rajajipuram
+2025-02-15 11:48:20,973 - ERROR - Cannot process violation: No authority found for Lucknow Rajajipuram
+2025-02-15 11:48:20,977 - WARNING - No authority found for location: Lucknow Krishna Nagar
+2025-02-15 11:48:20,977 - ERROR - Cannot process violation: No authority found for Lucknow Krishna Nagar
+2025-02-15 11:48:20,979 - WARNING - No authority found for location: Lucknow Bhootnath Market
+2025-02-15 11:48:20,980 - ERROR - Cannot process violation: No authority found for Lucknow Bhootnath Market
+2025-02-15 11:48:20,981 - WARNING - No authority found for location: Lucknow Singarnagar
+2025-02-15 11:48:20,981 - ERROR - Cannot process violation: No authority found for Lucknow Singarnagar
+2025-02-15 11:48:20,983 - WARNING - No authority found for location: Lucknow Tedhi Puliya
+2025-02-15 11:48:20,984 - ERROR - Cannot process violation: No authority found for Lucknow Tedhi Puliya
+2025-02-15 11:48:20,984 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:56:34,938 - INFO - Vehicle numbers in database:
+2025-02-15 11:56:34,939 - INFO - 'UP32KL1234'
+2025-02-15 11:56:34,939 - INFO - 'UP32AA1001'
+2025-02-15 11:56:34,939 - INFO - 'UP32BB2002'
+2025-02-15 11:56:34,940 - INFO - 'UP32CC3003'
+2025-02-15 11:56:34,940 - INFO - 'UP32DD4004'
+2025-02-15 11:56:34,940 - INFO - 'UP32EE5005'
+2025-02-15 11:56:34,941 - INFO - 'UP32FF6006'
+2025-02-15 11:56:34,941 - INFO - 'UP32GG7007'
+2025-02-15 11:56:34,941 - INFO - 'UP32HH8008'
+2025-02-15 11:56:34,941 - INFO - 'UP32II9009'
+2025-02-15 11:56:34,941 - INFO - 'UP32JJ1010'
+2025-02-15 11:56:34,942 - INFO - 'UP32KK1111'
+2025-02-15 11:56:34,942 - INFO - 'UP32LL1212'
+2025-02-15 11:56:34,942 - INFO - 'UP32MM1313'
+2025-02-15 11:56:34,942 - INFO - 'UP32NN1414'
+2025-02-15 11:56:34,944 - INFO - 'UP32OO1515'
+2025-02-15 11:56:34,944 - INFO - 'UP32PP1616'
+2025-02-15 11:56:34,944 - INFO - 'UP32QQ1717'
+2025-02-15 11:56:34,944 - INFO - 'UP32RR1818'
+2025-02-15 11:56:34,945 - INFO - 'UP32SS1919'
+2025-02-15 11:56:34,945 - INFO - 'UP32TT2020'
+2025-02-15 11:56:34,946 - INFO - 'UP32UU2121'
+2025-02-15 11:56:34,946 - INFO - 'UP32VV2222'
+2025-02-15 11:56:34,946 - INFO - 
+Violator vehicle numbers:
+2025-02-15 11:56:34,947 - INFO - 'UP32KL1234'
+2025-02-15 11:56:34,947 - INFO - 'UP32AA1001'
+2025-02-15 11:56:34,947 - INFO - 'UP32BB2002'
+2025-02-15 11:56:34,948 - INFO - 'UP32CC3003'
+2025-02-15 11:56:34,948 - INFO - 'UP32DD4004'
+2025-02-15 11:56:34,948 - INFO - 'UP32EE5005'
+2025-02-15 11:56:34,948 - INFO - 'UP32FF6006'
+2025-02-15 11:56:34,949 - INFO - 'UP32GG7007'
+2025-02-15 11:56:34,949 - INFO - 'UP32HH8008'
+2025-02-15 11:56:34,949 - INFO - 'UP32II9009'
+2025-02-15 11:56:34,950 - INFO - 'UP32JJ1010'
+2025-02-15 11:56:34,950 - INFO - 'UP32KK1111'
+2025-02-15 11:56:34,950 - INFO - 'UP32LL1212'
+2025-02-15 11:56:34,951 - INFO - 'UP32MM1313'
+2025-02-15 11:56:34,951 - INFO - 'UP32NN1414'
+2025-02-15 11:56:34,951 - INFO - 'UP32OO1515'
+2025-02-15 11:56:34,951 - INFO - 'UP32PP1616'
+2025-02-15 11:56:34,953 - INFO - 'UP32QQ1717'
+2025-02-15 11:56:34,953 - INFO - 'UP32RR1818'
+2025-02-15 11:56:34,953 - INFO - 'UP32SS1919'
+2025-02-15 11:56:34,953 - INFO - Successfully loaded all datasets
+2025-02-15 11:56:34,954 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:56:34,954 - INFO - Starting to process all violations
+2025-02-15 11:56:34,958 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:56:34,959 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:56:34,960 - WARNING - No authority found for location: Lucknow Alambagh
+2025-02-15 11:56:34,961 - ERROR - Cannot process violation: No authority found for Lucknow Alambagh
+2025-02-15 11:56:34,962 - WARNING - No authority found for location: Lucknow Indira Nagar
+2025-02-15 11:56:34,963 - ERROR - Cannot process violation: No authority found for Lucknow Indira Nagar
+2025-02-15 11:56:34,964 - WARNING - No authority found for location: Lucknow Charbagh
+2025-02-15 11:56:34,965 - ERROR - Cannot process violation: No authority found for Lucknow Charbagh
+2025-02-15 11:56:34,966 - WARNING - No authority found for location: Lucknow Gomti Nagar
+2025-02-15 11:56:34,966 - ERROR - Cannot process violation: No authority found for Lucknow Gomti Nagar
+2025-02-15 11:56:34,968 - WARNING - No authority found for location: Lucknow Chowk
+2025-02-15 11:56:34,968 - ERROR - Cannot process violation: No authority found for Lucknow Chowk
+2025-02-15 11:56:34,970 - WARNING - No authority found for location: Lucknow Aliganj
+2025-02-15 11:56:34,970 - ERROR - Cannot process violation: No authority found for Lucknow Aliganj
+2025-02-15 11:56:34,972 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:56:34,973 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:56:34,974 - WARNING - No authority found for location: Lucknow Faizabad Road
+2025-02-15 11:56:34,974 - ERROR - Cannot process violation: No authority found for Lucknow Faizabad Road
+2025-02-15 11:56:34,977 - WARNING - No authority found for location: Lucknow Ashiyana
+2025-02-15 11:56:34,977 - ERROR - Cannot process violation: No authority found for Lucknow Ashiyana
+2025-02-15 11:56:34,979 - WARNING - No authority found for location: Lucknow Mahanagar
+2025-02-15 11:56:34,979 - ERROR - Cannot process violation: No authority found for Lucknow Mahanagar
+2025-02-15 11:56:34,981 - WARNING - No authority found for location: Lucknow Aminabad
+2025-02-15 11:56:34,981 - ERROR - Cannot process violation: No authority found for Lucknow Aminabad
+2025-02-15 11:56:34,983 - WARNING - No authority found for location: Lucknow Trans Gomti
+2025-02-15 11:56:34,983 - ERROR - Cannot process violation: No authority found for Lucknow Trans Gomti
+2025-02-15 11:56:34,985 - WARNING - No authority found for location: Lucknow Vikas Nagar
+2025-02-15 11:56:34,985 - ERROR - Cannot process violation: No authority found for Lucknow Vikas Nagar
+2025-02-15 11:56:34,987 - WARNING - No authority found for location: Lucknow Jankipuram
+2025-02-15 11:56:34,987 - ERROR - Cannot process violation: No authority found for Lucknow Jankipuram
+2025-02-15 11:56:34,989 - WARNING - No authority found for location: Lucknow Rajajipuram
+2025-02-15 11:56:34,989 - ERROR - Cannot process violation: No authority found for Lucknow Rajajipuram
+2025-02-15 11:56:34,991 - WARNING - No authority found for location: Lucknow Krishna Nagar
+2025-02-15 11:56:34,993 - ERROR - Cannot process violation: No authority found for Lucknow Krishna Nagar
+2025-02-15 11:56:34,994 - WARNING - No authority found for location: Lucknow Bhootnath Market
+2025-02-15 11:56:34,994 - ERROR - Cannot process violation: No authority found for Lucknow Bhootnath Market
+2025-02-15 11:56:34,996 - WARNING - No authority found for location: Lucknow Singarnagar
+2025-02-15 11:56:34,996 - ERROR - Cannot process violation: No authority found for Lucknow Singarnagar
+2025-02-15 11:56:34,998 - WARNING - No authority found for location: Lucknow Tedhi Puliya
+2025-02-15 11:56:34,998 - ERROR - Cannot process violation: No authority found for Lucknow Tedhi Puliya
+2025-02-15 11:56:34,998 - INFO - Processed 0 out of 20 violations
+2025-02-15 11:59:52,287 - INFO - Vehicle numbers in database:
+2025-02-15 11:59:52,289 - INFO - 'UP32KL1234'
+2025-02-15 11:59:52,289 - INFO - 'UP32AA1001'
+2025-02-15 11:59:52,290 - INFO - 'UP32BB2002'
+2025-02-15 11:59:52,291 - INFO - 'UP32CC3003'
+2025-02-15 11:59:52,291 - INFO - 'UP32DD4004'
+2025-02-15 11:59:52,291 - INFO - 'UP32EE5005'
+2025-02-15 11:59:52,291 - INFO - 'UP32FF6006'
+2025-02-15 11:59:52,291 - INFO - 'UP32GG7007'
+2025-02-15 11:59:52,291 - INFO - 'UP32HH8008'
+2025-02-15 11:59:52,291 - INFO - 'UP32II9009'
+2025-02-15 11:59:52,292 - INFO - 'UP32JJ1010'
+2025-02-15 11:59:52,292 - INFO - 'UP32KK1111'
+2025-02-15 11:59:52,292 - INFO - 'UP32LL1212'
+2025-02-15 11:59:52,293 - INFO - 'UP32MM1313'
+2025-02-15 11:59:52,293 - INFO - 'UP32NN1414'
+2025-02-15 11:59:52,293 - INFO - 'UP32OO1515'
+2025-02-15 11:59:52,293 - INFO - 'UP32PP1616'
+2025-02-15 11:59:52,293 - INFO - 'UP32QQ1717'
+2025-02-15 11:59:52,295 - INFO - 'UP32RR1818'
+2025-02-15 11:59:52,295 - INFO - 'UP32SS1919'
+2025-02-15 11:59:52,295 - INFO - 'UP32TT2020'
+2025-02-15 11:59:52,296 - INFO - 'UP32UU2121'
+2025-02-15 11:59:52,296 - INFO - 'UP32VV2222'
+2025-02-15 11:59:52,296 - INFO - 
+Violator vehicle numbers:
+2025-02-15 11:59:52,296 - INFO - 'UP32KL1234'
+2025-02-15 11:59:52,297 - INFO - 'UP32AA1001'
+2025-02-15 11:59:52,297 - INFO - 'UP32BB2002'
+2025-02-15 11:59:52,298 - INFO - 'UP32CC3003'
+2025-02-15 11:59:52,298 - INFO - 'UP32DD4004'
+2025-02-15 11:59:52,299 - INFO - 'UP32EE5005'
+2025-02-15 11:59:52,299 - INFO - 'UP32FF6006'
+2025-02-15 11:59:52,299 - INFO - 'UP32GG7007'
+2025-02-15 11:59:52,300 - INFO - 'UP32HH8008'
+2025-02-15 11:59:52,300 - INFO - 'UP32II9009'
+2025-02-15 11:59:52,300 - INFO - 'UP32JJ1010'
+2025-02-15 11:59:52,300 - INFO - 'UP32KK1111'
+2025-02-15 11:59:52,301 - INFO - 'UP32LL1212'
+2025-02-15 11:59:52,301 - INFO - 'UP32MM1313'
+2025-02-15 11:59:52,301 - INFO - 'UP32NN1414'
+2025-02-15 11:59:52,302 - INFO - 'UP32OO1515'
+2025-02-15 11:59:52,302 - INFO - 'UP32PP1616'
+2025-02-15 11:59:52,302 - INFO - 'UP32QQ1717'
+2025-02-15 11:59:52,303 - INFO - 'UP32RR1818'
+2025-02-15 11:59:52,303 - INFO - 'UP32SS1919'
+2025-02-15 11:59:52,303 - INFO - Successfully loaded all datasets
+2025-02-15 11:59:52,303 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 11:59:52,305 - INFO - Starting to process all violations
+2025-02-15 11:59:52,308 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:59:52,309 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:59:52,312 - WARNING - No authority found for location: Lucknow Alambagh
+2025-02-15 11:59:52,312 - ERROR - Cannot process violation: No authority found for Lucknow Alambagh
+2025-02-15 11:59:52,314 - WARNING - No authority found for location: Lucknow Indira Nagar
+2025-02-15 11:59:52,315 - ERROR - Cannot process violation: No authority found for Lucknow Indira Nagar
+2025-02-15 11:59:52,317 - WARNING - No authority found for location: Lucknow Charbagh
+2025-02-15 11:59:52,318 - ERROR - Cannot process violation: No authority found for Lucknow Charbagh
+2025-02-15 11:59:52,319 - WARNING - No authority found for location: Lucknow Gomti Nagar
+2025-02-15 11:59:52,319 - ERROR - Cannot process violation: No authority found for Lucknow Gomti Nagar
+2025-02-15 11:59:52,321 - WARNING - No authority found for location: Lucknow Chowk
+2025-02-15 11:59:52,321 - ERROR - Cannot process violation: No authority found for Lucknow Chowk
+2025-02-15 11:59:52,323 - WARNING - No authority found for location: Lucknow Aliganj
+2025-02-15 11:59:52,324 - ERROR - Cannot process violation: No authority found for Lucknow Aliganj
+2025-02-15 11:59:52,324 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 11:59:52,325 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 11:59:52,327 - WARNING - No authority found for location: Lucknow Faizabad Road
+2025-02-15 11:59:52,328 - ERROR - Cannot process violation: No authority found for Lucknow Faizabad Road
+2025-02-15 11:59:52,329 - WARNING - No authority found for location: Lucknow Ashiyana
+2025-02-15 11:59:52,329 - ERROR - Cannot process violation: No authority found for Lucknow Ashiyana
+2025-02-15 11:59:52,332 - WARNING - No authority found for location: Lucknow Mahanagar
+2025-02-15 11:59:52,332 - ERROR - Cannot process violation: No authority found for Lucknow Mahanagar
+2025-02-15 11:59:52,334 - WARNING - No authority found for location: Lucknow Aminabad
+2025-02-15 11:59:52,334 - ERROR - Cannot process violation: No authority found for Lucknow Aminabad
+2025-02-15 11:59:52,337 - WARNING - No authority found for location: Lucknow Trans Gomti
+2025-02-15 11:59:52,338 - ERROR - Cannot process violation: No authority found for Lucknow Trans Gomti
+2025-02-15 11:59:52,339 - WARNING - No authority found for location: Lucknow Vikas Nagar
+2025-02-15 11:59:52,339 - ERROR - Cannot process violation: No authority found for Lucknow Vikas Nagar
+2025-02-15 11:59:52,341 - WARNING - No authority found for location: Lucknow Jankipuram
+2025-02-15 11:59:52,341 - ERROR - Cannot process violation: No authority found for Lucknow Jankipuram
+2025-02-15 11:59:52,342 - WARNING - No authority found for location: Lucknow Rajajipuram
+2025-02-15 11:59:52,343 - ERROR - Cannot process violation: No authority found for Lucknow Rajajipuram
+2025-02-15 11:59:52,344 - WARNING - No authority found for location: Lucknow Krishna Nagar
+2025-02-15 11:59:52,345 - ERROR - Cannot process violation: No authority found for Lucknow Krishna Nagar
+2025-02-15 11:59:52,347 - WARNING - No authority found for location: Lucknow Bhootnath Market
+2025-02-15 11:59:52,347 - ERROR - Cannot process violation: No authority found for Lucknow Bhootnath Market
+2025-02-15 11:59:52,350 - WARNING - No authority found for location: Lucknow Singarnagar
+2025-02-15 11:59:52,350 - ERROR - Cannot process violation: No authority found for Lucknow Singarnagar
+2025-02-15 11:59:52,351 - WARNING - No authority found for location: Lucknow Tedhi Puliya
+2025-02-15 11:59:52,352 - ERROR - Cannot process violation: No authority found for Lucknow Tedhi Puliya
+2025-02-15 11:59:52,352 - INFO - Processed 0 out of 20 violations
+2025-02-15 12:02:03,059 - INFO - Vehicle numbers in database:
+2025-02-15 12:02:03,060 - INFO - 'UP32KL1234'
+2025-02-15 12:02:03,060 - INFO - 'UP32AA1001'
+2025-02-15 12:02:03,060 - INFO - 'UP32BB2002'
+2025-02-15 12:02:03,061 - INFO - 'UP32CC3003'
+2025-02-15 12:02:03,061 - INFO - 'UP32DD4004'
+2025-02-15 12:02:03,061 - INFO - 'UP32EE5005'
+2025-02-15 12:02:03,061 - INFO - 'UP32FF6006'
+2025-02-15 12:02:03,062 - INFO - 'UP32GG7007'
+2025-02-15 12:02:03,062 - INFO - 'UP32HH8008'
+2025-02-15 12:02:03,062 - INFO - 'UP32II9009'
+2025-02-15 12:02:03,062 - INFO - 'UP32JJ1010'
+2025-02-15 12:02:03,062 - INFO - 'UP32KK1111'
+2025-02-15 12:02:03,064 - INFO - 'UP32LL1212'
+2025-02-15 12:02:03,064 - INFO - 'UP32MM1313'
+2025-02-15 12:02:03,064 - INFO - 'UP32NN1414'
+2025-02-15 12:02:03,065 - INFO - 'UP32OO1515'
+2025-02-15 12:02:03,065 - INFO - 'UP32PP1616'
+2025-02-15 12:02:03,065 - INFO - 'UP32QQ1717'
+2025-02-15 12:02:03,065 - INFO - 'UP32RR1818'
+2025-02-15 12:02:03,066 - INFO - 'UP32SS1919'
+2025-02-15 12:02:03,066 - INFO - 'UP32TT2020'
+2025-02-15 12:02:03,066 - INFO - 'UP32UU2121'
+2025-02-15 12:02:03,066 - INFO - 'UP32VV2222'
+2025-02-15 12:02:03,067 - INFO - 
+Violator vehicle numbers:
+2025-02-15 12:02:03,067 - INFO - 'UP32KL1234'
+2025-02-15 12:02:03,067 - INFO - 'UP32AA1001'
+2025-02-15 12:02:03,067 - INFO - 'UP32BB2002'
+2025-02-15 12:02:03,068 - INFO - 'UP32CC3003'
+2025-02-15 12:02:03,068 - INFO - 'UP32DD4004'
+2025-02-15 12:02:03,068 - INFO - 'UP32EE5005'
+2025-02-15 12:02:03,068 - INFO - 'UP32FF6006'
+2025-02-15 12:02:03,070 - INFO - 'UP32GG7007'
+2025-02-15 12:02:03,070 - INFO - 'UP32HH8008'
+2025-02-15 12:02:03,070 - INFO - 'UP32II9009'
+2025-02-15 12:02:03,070 - INFO - 'UP32JJ1010'
+2025-02-15 12:02:03,071 - INFO - 'UP32KK1111'
+2025-02-15 12:02:03,071 - INFO - 'UP32LL1212'
+2025-02-15 12:02:03,071 - INFO - 'UP32MM1313'
+2025-02-15 12:02:03,071 - INFO - 'UP32NN1414'
+2025-02-15 12:02:03,073 - INFO - 'UP32OO1515'
+2025-02-15 12:02:03,073 - INFO - 'UP32PP1616'
+2025-02-15 12:02:03,073 - INFO - 'UP32QQ1717'
+2025-02-15 12:02:03,073 - INFO - 'UP32RR1818'
+2025-02-15 12:02:03,074 - INFO - 'UP32SS1919'
+2025-02-15 12:02:03,074 - INFO - Successfully loaded all datasets
+2025-02-15 12:02:03,074 - INFO - Loaded 23 vehicles, 20 violations, and 5 authorities
+2025-02-15 12:02:03,075 - INFO - Starting to process all violations
+2025-02-15 12:02:03,077 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 12:02:03,078 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 12:02:03,079 - WARNING - No authority found for location: Lucknow Alambagh
+2025-02-15 12:02:03,080 - ERROR - Cannot process violation: No authority found for Lucknow Alambagh
+2025-02-15 12:02:03,082 - WARNING - No authority found for location: Lucknow Indira Nagar
+2025-02-15 12:02:03,082 - ERROR - Cannot process violation: No authority found for Lucknow Indira Nagar
+2025-02-15 12:02:03,084 - WARNING - No authority found for location: Lucknow Charbagh
+2025-02-15 12:02:03,084 - ERROR - Cannot process violation: No authority found for Lucknow Charbagh
+2025-02-15 12:02:03,088 - WARNING - No authority found for location: Lucknow Gomti Nagar
+2025-02-15 12:02:03,088 - ERROR - Cannot process violation: No authority found for Lucknow Gomti Nagar
+2025-02-15 12:02:03,090 - WARNING - No authority found for location: Lucknow Chowk
+2025-02-15 12:02:03,090 - ERROR - Cannot process violation: No authority found for Lucknow Chowk
+2025-02-15 12:02:03,091 - WARNING - No authority found for location: Lucknow Aliganj
+2025-02-15 12:02:03,092 - ERROR - Cannot process violation: No authority found for Lucknow Aliganj
+2025-02-15 12:02:03,093 - WARNING - No authority found for location: Lucknow Hazratganj
+2025-02-15 12:02:03,093 - ERROR - Cannot process violation: No authority found for Lucknow Hazratganj
+2025-02-15 12:02:03,095 - WARNING - No authority found for location: Lucknow Faizabad Road
+2025-02-15 12:02:03,096 - ERROR - Cannot process violation: No authority found for Lucknow Faizabad Road
+2025-02-15 12:02:03,097 - WARNING - No authority found for location: Lucknow Ashiyana
+2025-02-15 12:02:03,097 - ERROR - Cannot process violation: No authority found for Lucknow Ashiyana
+2025-02-15 12:02:03,099 - WARNING - No authority found for location: Lucknow Mahanagar
+2025-02-15 12:02:03,099 - ERROR - Cannot process violation: No authority found for Lucknow Mahanagar
+2025-02-15 12:02:03,101 - WARNING - No authority found for location: Lucknow Aminabad
+2025-02-15 12:02:03,102 - ERROR - Cannot process violation: No authority found for Lucknow Aminabad
+2025-02-15 12:02:03,103 - WARNING - No authority found for location: Lucknow Trans Gomti
+2025-02-15 12:02:03,105 - ERROR - Cannot process violation: No authority found for Lucknow Trans Gomti
+2025-02-15 12:02:03,106 - WARNING - No authority found for location: Lucknow Vikas Nagar
+2025-02-15 12:02:03,107 - ERROR - Cannot process violation: No authority found for Lucknow Vikas Nagar
+2025-02-15 12:02:03,108 - WARNING - No authority found for location: Lucknow Jankipuram
+2025-02-15 12:02:03,108 - ERROR - Cannot process violation: No authority found for Lucknow Jankipuram
+2025-02-15 12:02:03,110 - WARNING - No authority found for location: Lucknow Rajajipuram
+2025-02-15 12:02:03,110 - ERROR - Cannot process violation: No authority found for Lucknow Rajajipuram
+2025-02-15 12:02:03,112 - WARNING - No authority found for location: Lucknow Krishna Nagar
+2025-02-15 12:02:03,112 - ERROR - Cannot process violation: No authority found for Lucknow Krishna Nagar
+2025-02-15 12:02:03,115 - WARNING - No authority found for location: Lucknow Bhootnath Market
+2025-02-15 12:02:03,116 - ERROR - Cannot process violation: No authority found for Lucknow Bhootnath Market
+2025-02-15 12:02:03,120 - WARNING - No authority found for location: Lucknow Singarnagar
+2025-02-15 12:02:03,120 - ERROR - Cannot process violation: No authority found for Lucknow Singarnagar
+2025-02-15 12:02:03,121 - WARNING - No authority found for location: Lucknow Tedhi Puliya
+2025-02-15 12:02:03,123 - ERROR - Cannot process violation: No authority found for Lucknow Tedhi Puliya
+2025-02-15 12:02:03,123 - INFO - Processed 0 out of 20 violations
+2025-02-15 12:03:29,626 - INFO - Vehicle numbers in database:
+2025-02-15 12:03:29,627 - INFO - 'UP32AB1234'
+2025-02-15 12:03:29,627 - INFO - 'UP32CD5678'
+2025-02-15 12:03:29,628 - INFO - 'UP32EF9012'
+2025-02-15 12:03:29,628 - INFO - 'UP32GH3456'
+2025-02-15 12:03:29,628 - INFO - 'UP32IJ7890'
+2025-02-15 12:03:29,628 - INFO - 'UP32KL1234'
+2025-02-15 12:03:29,629 - INFO - 'UP32MN5678'
+2025-02-15 12:03:29,629 - INFO - 'UP32OP9012'
+2025-02-15 12:03:29,629 - INFO - 'UP32QR3456'
+2025-02-15 12:03:29,630 - INFO - 'UP32ST7890'
+2025-02-15 12:03:29,630 - INFO - 
+Violator vehicle numbers:
+2025-02-15 12:03:29,630 - INFO - 'UP32AB1234'
+2025-02-15 12:03:29,631 - INFO - 'UP32CD5678'
+2025-02-15 12:03:29,631 - INFO - 'UP32EF9012'
+2025-02-15 12:03:29,631 - INFO - 'UP32GH3456'
+2025-02-15 12:03:29,632 - INFO - 'UP32IJ7890'
+2025-02-15 12:03:29,632 - INFO - 'UP32KL1234'
+2025-02-15 12:03:29,632 - INFO - 'UP32MN5678'
+2025-02-15 12:03:29,632 - INFO - 'UP32OP9012'
+2025-02-15 12:03:29,633 - INFO - 'UP32QR3456'
+2025-02-15 12:03:29,633 - INFO - 'UP32ST7890'
+2025-02-15 12:03:29,633 - INFO - Successfully loaded all datasets
+2025-02-15 12:03:29,633 - INFO - Loaded 10 vehicles, 10 violations, and 10 authorities
+2025-02-15 12:03:29,634 - INFO - Starting to process all violations
+2025-02-15 12:03:29,637 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,637 - INFO - To: +919812345601
+2025-02-15 12:03:29,638 - INFO - Message:
+Traffic Violation Notice
+Dear Rahul Sharma,
+Your vehicle (UP32AB1234) was detected violating traffic rules:
+Violation: No Helmet
+Location: Hazratganj
+Time: 2025-02-15 08:20:00
+Fine Amount: Rs. 500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,640 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,640 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,641 - INFO - To: +919876540001
+2025-02-15 12:03:29,641 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32AB1234
+Violation Type: No Helmet
+Location: Hazratganj
+Time: 2025-02-15 08:20:00
+Vehicle Owner: Rahul Sharma
+Owner Contact: +919812345601
+Owner Address: 123 Hazratganj
+Fine Amount: Rs. 500
+
+2025-02-15 12:03:29,643 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,645 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,645 - INFO - To: +919812345602
+2025-02-15 12:03:29,645 - INFO - Message:
+Traffic Violation Notice
+Dear Priya Singh,
+Your vehicle (UP32CD5678) was detected violating traffic rules:
+Violation: Wrong Side Driving
+Location: Alambagh
+Time: 2025-02-15 08:25:00
+Fine Amount: Rs. 1000
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,648 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,648 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,649 - INFO - To: +919876540002
+2025-02-15 12:03:29,649 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32CD5678
+Violation Type: Wrong Side Driving
+Location: Alambagh
+Time: 2025-02-15 08:25:00
+Vehicle Owner: Priya Singh
+Owner Contact: +919812345602
+Owner Address: 456 Alambagh
+Fine Amount: Rs. 1000
+
+2025-02-15 12:03:29,650 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,652 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,652 - INFO - To: +919812345603
+2025-02-15 12:03:29,654 - INFO - Message:
+Traffic Violation Notice
+Dear Amit Kumar,
+Your vehicle (UP32EF9012) was detected violating traffic rules:
+Violation: Signal Jump
+Location: Indira Nagar
+Time: 2025-02-15 08:30:00
+Fine Amount: Rs. 1500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,656 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,657 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,657 - INFO - To: +919876540003
+2025-02-15 12:03:29,658 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32EF9012
+Violation Type: Signal Jump
+Location: Indira Nagar
+Time: 2025-02-15 08:30:00
+Vehicle Owner: Amit Kumar
+Owner Contact: +919812345603
+Owner Address: 789 Indira Nagar
+Fine Amount: Rs. 1500
+
+2025-02-15 12:03:29,659 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,661 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,661 - INFO - To: +919812345604
+2025-02-15 12:03:29,661 - INFO - Message:
+Traffic Violation Notice
+Dear Neha Gupta,
+Your vehicle (UP32GH3456) was detected violating traffic rules:
+Violation: No Helmet
+Location: Gomti Nagar
+Time: 2025-02-15 08:35:00
+Fine Amount: Rs. 500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,662 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,662 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,662 - INFO - To: +919876540004
+2025-02-15 12:03:29,664 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32GH3456
+Violation Type: No Helmet
+Location: Gomti Nagar
+Time: 2025-02-15 08:35:00
+Vehicle Owner: Neha Gupta
+Owner Contact: +919812345604
+Owner Address: 321 Gomti Nagar
+Fine Amount: Rs. 500
+
+2025-02-15 12:03:29,665 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,667 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,667 - INFO - To: +919812345605
+2025-02-15 12:03:29,668 - INFO - Message:
+Traffic Violation Notice
+Dear Rajesh Verma,
+Your vehicle (UP32IJ7890) was detected violating traffic rules:
+Violation: Wrong Side Driving
+Location: Charbagh
+Time: 2025-02-15 08:40:00
+Fine Amount: Rs. 1000
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,669 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,669 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,670 - INFO - To: +919876540005
+2025-02-15 12:03:29,670 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32IJ7890
+Violation Type: Wrong Side Driving
+Location: Charbagh
+Time: 2025-02-15 08:40:00
+Vehicle Owner: Rajesh Verma
+Owner Contact: +919812345605
+Owner Address: 654 Charbagh
+Fine Amount: Rs. 1000
+
+2025-02-15 12:03:29,673 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,675 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,675 - INFO - To: +919812345606
+2025-02-15 12:03:29,675 - INFO - Message:
+Traffic Violation Notice
+Dear Anita Yadav,
+Your vehicle (UP32KL1234) was detected violating traffic rules:
+Violation: Signal Jump
+Location: Aliganj
+Time: 2025-02-15 08:45:00
+Fine Amount: Rs. 1500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,676 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,677 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,678 - INFO - To: +919876540006
+2025-02-15 12:03:29,678 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32KL1234
+Violation Type: Signal Jump
+Location: Aliganj
+Time: 2025-02-15 08:45:00
+Vehicle Owner: Anita Yadav
+Owner Contact: +919812345606
+Owner Address: 987 Aliganj
+Fine Amount: Rs. 1500
+
+2025-02-15 12:03:29,679 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,681 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,682 - INFO - To: +919812345607
+2025-02-15 12:03:29,682 - INFO - Message:
+Traffic Violation Notice
+Dear Suresh Patel,
+Your vehicle (UP32MN5678) was detected violating traffic rules:
+Violation: No Helmet
+Location: Mahanagar
+Time: 2025-02-15 08:50:00
+Fine Amount: Rs. 500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,683 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,684 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,684 - INFO - To: +919876540007
+2025-02-15 12:03:29,684 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32MN5678
+Violation Type: No Helmet
+Location: Mahanagar
+Time: 2025-02-15 08:50:00
+Vehicle Owner: Suresh Patel
+Owner Contact: +919812345607
+Owner Address: 147 Mahanagar
+Fine Amount: Rs. 500
+
+2025-02-15 12:03:29,685 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,689 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,689 - INFO - To: +919812345608
+2025-02-15 12:03:29,690 - INFO - Message:
+Traffic Violation Notice
+Dear Meera Tiwari,
+Your vehicle (UP32OP9012) was detected violating traffic rules:
+Violation: Wrong Side Driving
+Location: Aminabad
+Time: 2025-02-15 08:55:00
+Fine Amount: Rs. 1000
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,691 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,692 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,692 - INFO - To: +919876540008
+2025-02-15 12:03:29,692 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32OP9012
+Violation Type: Wrong Side Driving
+Location: Aminabad
+Time: 2025-02-15 08:55:00
+Vehicle Owner: Meera Tiwari
+Owner Contact: +919812345608
+Owner Address: 258 Aminabad
+Fine Amount: Rs. 1000
+
+2025-02-15 12:03:29,694 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,696 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,696 - INFO - To: +919812345609
+2025-02-15 12:03:29,697 - INFO - Message:
+Traffic Violation Notice
+Dear Vikram Singh,
+Your vehicle (UP32QR3456) was detected violating traffic rules:
+Violation: Signal Jump
+Location: Krishna Nagar
+Time: 2025-02-15 09:00:00
+Fine Amount: Rs. 1500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,698 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,698 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,699 - INFO - To: +919876540009
+2025-02-15 12:03:29,699 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32QR3456
+Violation Type: Signal Jump
+Location: Krishna Nagar
+Time: 2025-02-15 09:00:00
+Vehicle Owner: Vikram Singh
+Owner Contact: +919812345609
+Owner Address: 369 Krishna Nagar
+Fine Amount: Rs. 1500
+
+2025-02-15 12:03:29,700 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,702 - INFO - SIMULATION: Sending notification to violator
+2025-02-15 12:03:29,702 - INFO - To: +919812345610
+2025-02-15 12:03:29,702 - INFO - Message:
+Traffic Violation Notice
+Dear Pooja Sharma,
+Your vehicle (UP32ST7890) was detected violating traffic rules:
+Violation: No Helmet
+Location: Transport Nagar
+Time: 2025-02-15 09:05:00
+Fine Amount: Rs. 500
+Please pay the fine within 7 days to avoid additional penalties.
+
+2025-02-15 12:03:29,706 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\violator_20250215_120329.txt
+2025-02-15 12:03:29,706 - INFO - SIMULATION: Sending notification to authority
+2025-02-15 12:03:29,707 - INFO - To: +919876540010
+2025-02-15 12:03:29,707 - INFO - Message:
+New Traffic Violation Detected
+Vehicle Number: UP32ST7890
+Violation Type: No Helmet
+Location: Transport Nagar
+Time: 2025-02-15 09:05:00
+Vehicle Owner: Pooja Sharma
+Owner Contact: +919812345610
+Owner Address: 741 Transport Nagar
+Fine Amount: Rs. 500
+
+2025-02-15 12:03:29,709 - INFO - Notification logged to C:\Users\pawan\Documents\Rule_Violation_detection\rule_1\notification_logs\authority_20250215_120329.txt
+2025-02-15 12:03:29,709 - INFO - Processed 10 out of 10 violations
+2025-02-15 12:23:57,120 - INFO - Successfully loaded all datasets
+2025-02-15 12:23:57,121 - INFO - Loaded 10 vehicles, 10 violations, and 10 authorities
+2025-02-15 12:23:57,122 - INFO - Starting to process all violations
+2025-02-15 12:23:57,123 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 12:23:57,123 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 12:23:57,125 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 12:23:57,125 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 12:23:57,126 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 12:23:57,127 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 12:23:57,128 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 12:23:57,130 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 12:23:57,131 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 12:23:57,131 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 12:23:57,132 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 12:23:57,133 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 12:23:57,134 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 12:23:57,134 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 12:23:57,136 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 12:23:57,136 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 12:23:57,137 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 12:23:57,137 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 12:23:57,138 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 12:23:57,139 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 12:23:57,140 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:06:16,220 - INFO - Successfully loaded all datasets
+2025-02-15 13:06:16,221 - INFO - Loaded 10 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:06:16,223 - INFO - Starting to process all violations
+2025-02-15 13:06:16,225 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:06:16,225 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:06:16,227 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:06:16,228 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:06:16,229 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:06:16,230 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:06:16,232 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:06:16,232 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:06:16,233 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:06:16,234 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:06:16,235 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:06:16,235 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:06:16,236 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:06:16,237 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:06:16,238 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:06:16,239 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:06:16,241 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:06:16,241 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:06:16,242 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:06:16,242 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:06:16,243 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:06:54,330 - INFO - Successfully loaded all datasets
+2025-02-15 13:06:54,330 - INFO - Loaded 10 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:06:54,331 - INFO - Starting to process all violations
+2025-02-15 13:06:54,334 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:06:54,334 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:06:54,336 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:06:54,336 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:06:54,337 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:06:54,338 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:06:54,338 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:06:54,340 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:06:54,341 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:06:54,342 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:06:54,343 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:06:54,343 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:06:54,344 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:06:54,344 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:06:54,346 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:06:54,347 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:06:54,349 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:06:54,350 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:06:54,351 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:06:54,351 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:06:54,351 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:19:09,478 - INFO - Successfully loaded all datasets
+2025-02-15 13:19:09,478 - INFO - Loaded 17 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:19:09,479 - INFO - Starting to process all violations
+2025-02-15 13:19:09,481 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:19:09,481 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:19:09,482 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:19:09,482 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:19:09,484 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:19:09,484 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:19:09,486 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:19:09,486 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:19:09,489 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:19:09,490 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:19:09,491 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:19:09,491 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:19:09,493 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:19:09,493 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:19:09,493 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:19:09,494 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:19:09,495 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:19:09,496 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:19:09,497 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:19:09,498 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:19:09,498 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:20:41,896 - INFO - Successfully loaded all datasets
+2025-02-15 13:20:41,897 - INFO - Loaded 17 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:20:41,898 - INFO - Starting to process all violations
+2025-02-15 13:20:41,899 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:20:41,899 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:20:41,901 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:20:41,901 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:20:41,902 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:20:41,902 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:20:41,903 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:20:41,903 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:20:41,904 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:20:41,904 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:20:41,907 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:20:41,908 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:20:41,909 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:20:41,909 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:20:41,910 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:20:41,910 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:20:41,911 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:20:41,912 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:20:41,913 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:20:41,913 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:20:41,913 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:27:06,814 - INFO - Successfully loaded all datasets
+2025-02-15 13:27:06,815 - INFO - Loaded 10 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:27:06,815 - INFO - Starting to process all violations
+2025-02-15 13:27:06,819 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:27:06,819 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:27:06,820 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:27:06,820 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:27:06,822 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:27:06,823 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:27:06,824 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:27:06,824 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:27:06,825 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:27:06,826 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:27:06,826 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:27:06,826 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:27:06,828 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:27:06,828 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:27:06,830 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:27:06,830 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:27:06,831 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:27:06,832 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:27:06,832 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:27:06,833 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:27:06,833 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:27:50,693 - INFO - Successfully loaded all datasets
+2025-02-15 13:27:50,694 - INFO - Loaded 109 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:27:50,695 - INFO - Starting to process all violations
+2025-02-15 13:27:50,697 - WARNING - Vehicle UP32AB1234 not found in database
+2025-02-15 13:27:50,697 - ERROR - Cannot process violation: Vehicle UP32AB1234 not found
+2025-02-15 13:27:50,699 - WARNING - Vehicle UP32CD5678 not found in database
+2025-02-15 13:27:50,699 - ERROR - Cannot process violation: Vehicle UP32CD5678 not found
+2025-02-15 13:27:50,700 - WARNING - Vehicle UP32EF9012 not found in database
+2025-02-15 13:27:50,700 - ERROR - Cannot process violation: Vehicle UP32EF9012 not found
+2025-02-15 13:27:50,701 - WARNING - Vehicle UP32GH3456 not found in database
+2025-02-15 13:27:50,702 - ERROR - Cannot process violation: Vehicle UP32GH3456 not found
+2025-02-15 13:27:50,703 - WARNING - Vehicle UP32IJ7890 not found in database
+2025-02-15 13:27:50,703 - ERROR - Cannot process violation: Vehicle UP32IJ7890 not found
+2025-02-15 13:27:50,705 - WARNING - Vehicle UP32KL1234 not found in database
+2025-02-15 13:27:50,705 - ERROR - Cannot process violation: Vehicle UP32KL1234 not found
+2025-02-15 13:27:50,706 - WARNING - Vehicle UP32MN5678 not found in database
+2025-02-15 13:27:50,706 - ERROR - Cannot process violation: Vehicle UP32MN5678 not found
+2025-02-15 13:27:50,707 - WARNING - Vehicle UP32OP9012 not found in database
+2025-02-15 13:27:50,708 - ERROR - Cannot process violation: Vehicle UP32OP9012 not found
+2025-02-15 13:27:50,709 - WARNING - Vehicle UP32QR3456 not found in database
+2025-02-15 13:27:50,709 - ERROR - Cannot process violation: Vehicle UP32QR3456 not found
+2025-02-15 13:27:50,711 - WARNING - Vehicle UP32ST7890 not found in database
+2025-02-15 13:27:50,711 - ERROR - Cannot process violation: Vehicle UP32ST7890 not found
+2025-02-15 13:27:50,711 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:43:56,335 - INFO - Initializing Twilio with Account SID: AC9308...
+2025-02-15 13:43:56,336 - INFO - Using Twilio phone number: +16812434625
+2025-02-15 13:43:56,336 - INFO - Successfully initialized Twilio client
+2025-02-15 13:43:56,407 - INFO - Successfully loaded all datasets
+2025-02-15 13:43:56,409 - INFO - Loaded 109 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:43:56,411 - INFO - Starting to process all violations
+2025-02-15 13:43:56,412 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 13:43:56,413 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 13:43:56,414 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 13:43:56,415 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 13:43:56,416 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 13:43:56,416 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 13:43:56,418 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 13:43:56,418 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 13:43:56,419 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 13:43:56,420 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 13:43:56,420 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 13:43:56,421 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 13:43:56,422 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 13:43:56,423 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 13:43:56,424 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 13:43:56,425 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 13:43:56,425 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 13:43:56,425 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 13:43:56,428 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 13:43:56,428 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 13:43:56,429 - INFO - Processed 0 out of 10 violations
+2025-02-15 13:44:41,014 - INFO - Initializing Twilio with Account SID: AC9308...
+2025-02-15 13:44:41,015 - INFO - Using Twilio phone number: +16812434625
+2025-02-15 13:44:41,015 - INFO - Successfully initialized Twilio client
+2025-02-15 13:44:41,035 - INFO - Successfully loaded all datasets
+2025-02-15 13:44:41,036 - INFO - Loaded 109 vehicles, 10 violations, and 10 authorities
+2025-02-15 13:44:41,036 - INFO - Starting to process all violations
+2025-02-15 13:44:41,038 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 13:44:41,038 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 13:44:41,039 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 13:44:41,040 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 13:44:41,040 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 13:44:41,041 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 13:44:41,042 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 13:44:41,042 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 13:44:41,043 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 13:44:41,043 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 13:44:41,044 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 13:44:41,045 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 13:44:41,046 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 13:44:41,046 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 13:44:41,048 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 13:44:41,048 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 13:44:41,048 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 13:44:41,048 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 13:44:41,050 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 13:44:41,050 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 13:44:41,050 - INFO - Processed 0 out of 10 violations
+2025-02-15 15:34:07,270 - INFO - Successfully loaded all datasets
+2025-02-15 15:34:07,271 - INFO - Loaded 99 vehicles, 10 violations, and 10 authorities
+2025-02-15 15:34:07,272 - INFO - Starting to process all violations
+2025-02-15 15:34:07,274 - WARNING - Vehicle UP32UV1111 not found in database
+2025-02-15 15:34:07,274 - ERROR - Cannot process violation: Vehicle UP32UV1111 not found
+2025-02-15 15:34:07,275 - WARNING - Vehicle UP32WX2222 not found in database
+2025-02-15 15:34:07,276 - ERROR - Cannot process violation: Vehicle UP32WX2222 not found
+2025-02-15 15:34:07,277 - WARNING - Vehicle UP32YZ3333 not found in database
+2025-02-15 15:34:07,277 - ERROR - Cannot process violation: Vehicle UP32YZ3333 not found
+2025-02-15 15:34:07,278 - WARNING - Vehicle UP32AA4444 not found in database
+2025-02-15 15:34:07,278 - ERROR - Cannot process violation: Vehicle UP32AA4444 not found
+2025-02-15 15:34:07,280 - WARNING - Vehicle UP32BB5555 not found in database
+2025-02-15 15:34:07,280 - ERROR - Cannot process violation: Vehicle UP32BB5555 not found
+2025-02-15 15:34:07,281 - WARNING - Vehicle UP32CC6666 not found in database
+2025-02-15 15:34:07,282 - ERROR - Cannot process violation: Vehicle UP32CC6666 not found
+2025-02-15 15:34:07,283 - WARNING - Vehicle UP32DD7777 not found in database
+2025-02-15 15:34:07,284 - ERROR - Cannot process violation: Vehicle UP32DD7777 not found
+2025-02-15 15:34:07,286 - WARNING - Vehicle UP32EE8888 not found in database
+2025-02-15 15:34:07,287 - ERROR - Cannot process violation: Vehicle UP32EE8888 not found
+2025-02-15 15:34:07,290 - WARNING - Vehicle UP32FF9999 not found in database
+2025-02-15 15:34:07,291 - ERROR - Cannot process violation: Vehicle UP32FF9999 not found
+2025-02-15 15:34:07,294 - WARNING - Vehicle UP32GG1010 not found in database
+2025-02-15 15:34:07,296 - ERROR - Cannot process violation: Vehicle UP32GG1010 not found
+2025-02-15 15:34:07,298 - INFO - Processed 0 out of 10 violations
