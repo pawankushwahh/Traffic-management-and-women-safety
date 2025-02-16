@@ -33,7 +33,7 @@ An automated system that detects traffic rule violations using computer vision, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/traffic-violation-detection.git
+   git clone https://github.com/pawankushwahh/traffic-violation-detection.git
    cd traffic-violation-detection
    ```
 
@@ -145,5 +145,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - Kushwahpawan2005@gmail.com
+mail - Kushwahpawan2005@gmail.com
 Project Link: https://github.com/pawankushwahh/traffic-violation-detection
