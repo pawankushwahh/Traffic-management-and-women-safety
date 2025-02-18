@@ -1,7 +1,9 @@
 # Team Tech Vanguard Presents
 ## Women Safety SOS https://github.com/RAVI-RAJPUT-UMATH/Women_Safety : A quick emergency response system for women's safety.
-## Signal Automation (https://github.com/pawankushwahh/Signal_Automation : An AI-driven system for optimizing traffic signals based on real-time traffic density.
+## Signal Automation https://github.com/pawankushwahh/Signal_Automation : An AI-driven system for optimizing traffic signals based on real-time traffic density.
 ## Traffic Rule Violation Detection and Notification System** (This repository): Automated detection of traffic rule violations using computer vision.
+## Video Demonstration https://drive.google.com/file/d/1GaEdtEzO_qE81oPrjO9-C9Vlkk_zl1CV/view?usp=sharing 
+
 
 
 # Traffic Rule Violation Detection and Notification System
