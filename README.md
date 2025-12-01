@@ -10,6 +10,7 @@
 
 An automated system that detects traffic rule violations using computer vision, processes the violations, and sends notifications to both violators and traffic authorities.
 
+
 ## Features
 
 - **Real-time Violation Detection**: Uses YOLOv8 for detecting vehicles and identifying violations
