@@ -1,254 +1,239 @@
-import pandas as pd
+"""
+notification_system.py
+=======================
+STEP 2 of the pipeline.
+
+This script reads the violations recorded in data/violators_data.csv and,
+for each one, sends two emails:
+
+  1. to the vehicle OWNER  (looked up in data/vehicle_database.csv)
+  2. to the traffic AUTHORITY for that location (data/location_authorities.csv)
+
+It also saves a text copy of every message in the notification_logs/ folder.
+
+Run it like this:
+    python notification_system.py                # uses EMAIL_SIMULATION from .env
+    python notification_system.py --simulation   # force "pretend to send" mode
+    python notification_system.py --send          # force real email sending
+"""
+
 import os
-from datetime import datetime
+import argparse
 import logging
-from twilio.rest import Client
-from dotenv import load_dotenv
+from datetime import datetime
+
+import pandas as pd
+
+import config
+from email_service import EmailService
+
 
 class NotificationSystem:
-    def __init__(self, simulation_mode=False):
-        # Initialize logging
+    def __init__(self, simulation_mode=True):
         self.setup_logging()
-        
-        # Load environment variables
-        load_dotenv()
-        
-        # Initialize Twilio client
         self.simulation_mode = simulation_mode
-        if not simulation_mode:
-            account_sid = os.getenv('TWILIO_ACCOUNT_SID')
-            auth_token = os.getenv('TWILIO_AUTH_TOKEN')
-            self.twilio_phone = os.getenv('TWILIO_PHONE_NUMBER')
-            
-            self.logger.info(f"Initializing Twilio with Account SID: {account_sid[:6]}...")
-            self.logger.info(f"Using Twilio phone number: {self.twilio_phone}")
-            
-            if not all([account_sid, auth_token, self.twilio_phone]):
-                self.logger.error("Missing Twilio credentials in .env file")
-                self.logger.error(f"TWILIO_ACCOUNT_SID present: {bool(account_sid)}")
-                self.logger.error(f"TWILIO_AUTH_TOKEN present: {bool(auth_token)}")
-                self.logger.error(f"TWILIO_PHONE_NUMBER present: {bool(self.twilio_phone)}")
-                raise ValueError("Twilio credentials not found")
-            
-            try:
-                self.twilio_client = Client(account_sid, auth_token)
-                self.logger.info("Successfully initialized Twilio client")
-            except Exception as e:
-                self.logger.error(f"Error initializing Twilio client: {e}")
-                raise
-        
-        # Load datasets
-        self.data_dir = os.path.join(os.path.dirname(__file__), 'data')
+
+        # The email helper does the actual sending (or pretending, in simulation).
+        self.email_service = EmailService(simulation_mode=simulation_mode)
+
+        if simulation_mode:
+            self.logger.info("Running in SIMULATION mode (emails are logged, not sent)")
+        else:
+            self.logger.info("Running in LIVE mode (emails will really be sent)")
+
+        # Load all three CSV files into memory.
         self.load_datasets()
-        
-        # Initialize notification logs directory
-        self.logs_dir = os.path.join(os.path.dirname(__file__), 'notification_logs')
-        os.makedirs(self.logs_dir, exist_ok=True)
+
+        # Make sure the folder for saved message copies exists.
+        os.makedirs(config.NOTIFICATION_LOGS_DIR, exist_ok=True)
 
     def setup_logging(self):
-        """Setup logging configuration"""
+        """Print messages to the screen AND save them to a log file."""
         logging.basicConfig(
             level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
+            format="%(asctime)s - %(levelname)s - %(message)s",
             handlers=[
-                logging.FileHandler('notification_system.log'),
-                logging.StreamHandler()
-            ]
+                logging.FileHandler("notification_system.log"),
+                logging.StreamHandler(),
+            ],
         )
         self.logger = logging.getLogger(__name__)
 
+    # -----------------------------------------------------------------------
+    # Loading the data
+    # -----------------------------------------------------------------------
+
     def load_datasets(self):
-        """Load all required datasets"""
+        """Read the three CSV files using pandas (dtype=str keeps everything text)."""
         try:
-            # Load datasets with proper string handling
-            self.vehicle_db = pd.read_csv(os.path.join(self.data_dir, 'vehicle_database.csv'), dtype=str)
-            self.violators = pd.read_csv(os.path.join(self.data_dir, 'violators_data.csv'), dtype=str)
-            self.authorities = pd.read_csv(os.path.join(self.data_dir, 'location_authorities.csv'), dtype=str)
-            
-            # Clean whitespace from vehicle numbers and locations
-            self.vehicle_db['Vehicle_Number'] = self.vehicle_db['Vehicle_Number'].str.strip().str.upper()
-            self.violators['Vehicle_Number'] = self.violators['Vehicle_Number'].str.strip().str.upper()
-            self.violators['Location'] = self.violators['Location'].str.strip()
-            self.authorities['Location'] = self.authorities['Location'].str.strip()
-            
-            # Debug info
-            self.logger.info("Successfully loaded all datasets")
-            self.logger.info(f"Loaded {len(self.vehicle_db)} vehicles, {len(self.violators)} violations, and {len(self.authorities)} authorities")
-            self.logger.info(f"Vehicle numbers in database: {', '.join(self.vehicle_db['Vehicle_Number'].head().tolist())}")
-            self.logger.info(f"Vehicle numbers in violations: {', '.join(self.violators['Vehicle_Number'].head().tolist())}")
+            self.vehicle_db = pd.read_csv(config.VEHICLE_DATABASE_CSV, dtype=str)
+            self.violators = pd.read_csv(config.VIOLATORS_CSV, dtype=str)
+            self.authorities = pd.read_csv(config.AUTHORITIES_CSV, dtype=str)
+
+            # Tidy up the text so lookups match (remove spaces, fix capitals).
+            self.vehicle_db["Vehicle_Number"] = self.vehicle_db["Vehicle_Number"].str.strip().str.upper()
+            self.violators["Vehicle_Number"] = self.violators["Vehicle_Number"].str.strip().str.upper()
+            self.violators["Location"] = self.violators["Location"].str.strip()
+            self.authorities["Location"] = self.authorities["Location"].str.strip()
+
+            self.logger.info(
+                "Loaded %s vehicles, %s violations, and %s authorities",
+                len(self.vehicle_db), len(self.violators), len(self.authorities),
+            )
         except Exception as e:
-            self.logger.error(f"Error loading datasets: {e}")
+            self.logger.error("Error loading datasets: %s", e)
             raise
 
     def get_vehicle_details(self, vehicle_number):
-        """Retrieve vehicle owner details from the database"""
-        try:
-            vehicle_number = vehicle_number.strip().upper()
-            self.logger.info(f"Looking for vehicle: {vehicle_number}")
-            matches = self.vehicle_db[self.vehicle_db['Vehicle_Number'] == vehicle_number]
-            if len(matches) == 0:
-                self.logger.warning(f"Vehicle {vehicle_number} not found in database")
-                return None
-            vehicle = matches.iloc[0]
-            return {
-                'owner_name': vehicle['Owner_Name'],
-                'phone': vehicle['Phone_Number'],
-                'address': vehicle['Address']
-            }
-        except Exception as e:
-            self.logger.error(f"Error getting vehicle details for {vehicle_number}: {e}")
+        """Find the owner of a vehicle. Returns a dict, or None if not found."""
+        vehicle_number = vehicle_number.strip().upper()
+        matches = self.vehicle_db[self.vehicle_db["Vehicle_Number"] == vehicle_number]
+        if len(matches) == 0:
+            self.logger.warning("Vehicle %s not found in database", vehicle_number)
             return None
+
+        row = matches.iloc[0]
+        return {
+            "owner_name": row["Owner_Name"],
+            "phone": row["Phone_Number"],
+            "address": row["Address"],
+            "email": row["Owner_Email"],
+        }
 
     def get_authority_details(self, location):
-        """Get traffic authority details for a location"""
-        try:
-            matches = self.authorities[self.authorities['Location'] == location]
-            if len(matches) == 0:
-                self.logger.warning(f"No authority found for location: {location}")
-                return None
-            authority = matches.iloc[0]
-            return {
-                'name': authority['Authority_Name'],
-                'phone': authority['Authority_Phone'],
-                'email': authority['Authority_Email']
-            }
-        except Exception as e:
-            self.logger.warning(f"Error getting authority details for {location}: {e}")
+        """Find the traffic authority for a location. Returns a dict, or None."""
+        matches = self.authorities[self.authorities["Location"] == location]
+        if len(matches) == 0:
+            self.logger.warning("No authority found for location: %s", location)
             return None
 
-    def compose_violator_message(self, violation_data, vehicle_details):
-        """Compose notification message for violator"""
+        row = matches.iloc[0]
+        return {
+            "name": row["Authority_Name"],
+            "phone": row["Authority_Phone"],
+            "email": row["Authority_Email"],
+        }
+
+    # -----------------------------------------------------------------------
+    # Building the email text
+    # -----------------------------------------------------------------------
+
+    def compose_violator_message(self, violation, vehicle):
         return (
             f"Traffic Violation Notice\n"
-            f"Dear {vehicle_details['owner_name']},\n"
-            f"Your vehicle ({violation_data['Vehicle_Number']}) "
+            f"Dear {vehicle['owner_name']},\n"
+            f"Your vehicle ({violation['Vehicle_Number']}) "
             f"was detected violating traffic rules:\n"
-            f"Violation: {violation_data['Violation_Type']}\n"
-            f"Location: {violation_data['Location']}\n"
-            f"Time: {violation_data['Violation_Time']}\n"
-            f"Fine Amount: Rs. {violation_data['Fine_Amount']}\n"
+            f"Violation: {violation['Violation_Type']}\n"
+            f"Location: {violation['Location']}\n"
+            f"Time: {violation['Violation_Time']}\n"
+            f"Fine Amount: Rs. {violation['Fine_Amount']}\n"
             f"Please pay the fine within 7 days to avoid additional penalties."
         )
 
-    def compose_authority_message(self, violation_data, vehicle_details):
-        """Compose notification message for authority"""
+    def compose_authority_message(self, violation, vehicle):
         return (
             f"New Traffic Violation Detected\n"
-            f"Vehicle Number: {violation_data['Vehicle_Number']}\n"
-            f"Violation Type: {violation_data['Violation_Type']}\n"
-            f"Location: {violation_data['Location']}\n"
-            f"Time: {violation_data['Violation_Time']}\n"
-            f"Vehicle Owner: {vehicle_details['owner_name']}\n"
-            f"Owner Contact: {vehicle_details['phone']}\n"
-            f"Owner Address: {vehicle_details['address']}\n"
-            f"Fine Amount: Rs. {violation_data['Fine_Amount']}"
+            f"Vehicle Number: {violation['Vehicle_Number']}\n"
+            f"Violation Type: {violation['Violation_Type']}\n"
+            f"Location: {violation['Location']}\n"
+            f"Time: {violation['Violation_Time']}\n"
+            f"Vehicle Owner: {vehicle['owner_name']}\n"
+            f"Owner Contact: {vehicle['phone']}\n"
+            f"Owner Email: {vehicle['email']}\n"
+            f"Owner Address: {vehicle['address']}\n"
+            f"Fine Amount: Rs. {violation['Fine_Amount']}"
         )
 
-    def send_notification(self, recipient_type, phone_number, message):
-        """Send notification via SMS"""
-        try:
-            if self.simulation_mode:
-                self.logger.info(f"SIMULATION: Sending notification to {recipient_type}")
-                self.logger.info(f"To: {phone_number}")
-                self.logger.info(f"Message:\n{message}\n")
-                return True
-            else:
-                # Send actual SMS using Twilio
-                message = self.twilio_client.messages.create(
-                    body=message,
-                    from_=self.twilio_phone,
-                    to=phone_number
-                )
-                self.logger.info(f"Sent {recipient_type} notification: {message.sid}")
-                return True
-        except Exception as e:
-            self.logger.error(f"Error sending notification to {phone_number}: {e}")
-            return False
-
-    def log_notification(self, recipient_type, recipient_details, message):
-        """Log notification details to file"""
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_file = os.path.join(self.logs_dir, f"{recipient_type}_{timestamp}.txt")
-        
-        with open(log_file, 'w', encoding='utf-8') as f:
+    def save_message_copy(self, recipient_type, recipient_details, message):
+        """Save a text copy of a message we sent into notification_logs/."""
+        stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        log_file = os.path.join(config.NOTIFICATION_LOGS_DIR, f"{recipient_type}_{stamp}.txt")
+        with open(log_file, "w", encoding="utf-8") as f:
             f.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write(f"Recipient Type: {recipient_type}\n")
             f.write(f"Recipient Details: {recipient_details}\n")
             f.write(f"Message:\n{message}\n")
-        
-        self.logger.info(f"Notification logged to {log_file}")
 
-    def process_violation(self, violation_data):
-        """Process a single violation and send notifications"""
-        try:
-            # Get vehicle details
-            vehicle_number = violation_data['Vehicle_Number']
-            self.logger.info(f"Processing violation for vehicle: {vehicle_number}")
-            
-            # Debug vehicle database
-            self.logger.info(f"First few vehicles in database: {self.vehicle_db['Vehicle_Number'].head().tolist()}")
-            self.logger.info(f"Total vehicles in database: {len(self.vehicle_db)}")
-            self.logger.info(f"Looking for exact match: '{vehicle_number}'")
-            
-            vehicle_details = self.get_vehicle_details(vehicle_number)
-            if vehicle_details is None:
-                self.logger.error(f"Cannot process violation: Vehicle {vehicle_number} not found")
-                return False
+    # -----------------------------------------------------------------------
+    # Sending notifications
+    # -----------------------------------------------------------------------
 
-            # Get authority details
-            location = violation_data['Location']
-            authority_details = self.get_authority_details(location)
-            if authority_details is None:
-                self.logger.error(f"Cannot process violation: No authority found for location {location}")
-                return False
+    def process_violation(self, violation):
+        """Send the owner and authority emails for one violation row."""
+        vehicle_number = violation["Vehicle_Number"]
+        self.logger.info("Processing violation for vehicle: %s", vehicle_number)
 
-            # Compose messages
-            violator_message = self.compose_violator_message(violation_data, vehicle_details)
-            authority_message = self.compose_authority_message(violation_data, vehicle_details)
-
-            # Send notifications
-            if not self.simulation_mode:
-                self.send_notification('violator', vehicle_details['phone'], violator_message)
-                self.send_notification('authority', authority_details['phone'], authority_message)
-            else:
-                self.logger.info(f"[SIMULATION] Would send to violator ({vehicle_details['phone']}): {violator_message}")
-                self.logger.info(f"[SIMULATION] Would send to authority ({authority_details['phone']}): {authority_message}")
-
-            # Log notifications
-            self.log_notification('violator', vehicle_details, violator_message)
-            self.log_notification('authority', authority_details, authority_message)
-
-            return True
-        except Exception as e:
-            self.logger.error(f"Error processing violation: {e}")
+        # Look up who owns the vehicle.
+        vehicle = self.get_vehicle_details(vehicle_number)
+        if vehicle is None:
+            self.logger.error("Skipping: vehicle %s is not in the database", vehicle_number)
             return False
 
+        # Look up which authority to inform.
+        authority = self.get_authority_details(violation["Location"])
+        if authority is None:
+            self.logger.error("Skipping: no authority for location %s", violation["Location"])
+            return False
+
+        # Build the two messages.
+        owner_message = self.compose_violator_message(violation, vehicle)
+        authority_message = self.compose_authority_message(violation, vehicle)
+
+        owner_subject = f"Traffic Violation Notice - {vehicle_number}"
+        authority_subject = f"New Violation Alert - {vehicle_number}"
+
+        # Send them (or simulate sending).
+        self.email_service.send_email(vehicle["email"], owner_subject, owner_message)
+        self.email_service.send_email(authority["email"], authority_subject, authority_message)
+
+        # Keep a copy on disk.
+        self.save_message_copy("violator", vehicle, owner_message)
+        self.save_message_copy("authority", authority, authority_message)
+
+        return True
+
     def process_all_violations(self):
-        """Process all violations in the dataset"""
+        """Go through every row in the violations CSV."""
         self.logger.info("Starting to process all violations")
         success_count = 0
-        total_violations = len(self.violators)
+        total = len(self.violators)
 
         for _, violation in self.violators.iterrows():
             if self.process_violation(violation):
                 success_count += 1
 
-        self.logger.info(f"Processed {success_count} out of {total_violations} violations")
-        return success_count, total_violations
+        self.logger.info("Processed %s out of %s violations", success_count, total)
+        return success_count, total
+
 
 def main():
+    parser = argparse.ArgumentParser(description="Email traffic violation notices")
+    parser.add_argument("--simulation", action="store_true",
+                        help="Force simulation mode (no real emails)")
+    parser.add_argument("--send", action="store_true",
+                        help="Force real email sending")
+    args = parser.parse_args()
+
+    # Decide the mode: command-line flags win; otherwise use .env.
+    if args.send:
+        simulation_mode = False
+    elif args.simulation:
+        simulation_mode = True
+    else:
+        simulation_mode = config.EMAIL_SIMULATION
+
     try:
-        # Set simulation_mode=True for testing without sending actual SMS
-        print("Starting notification system in simulation mode...")
-        notification_system = NotificationSystem(simulation_mode=True)
-        success, total = notification_system.process_all_violations()
-        print(f"\nProcessing complete!")
+        notifier = NotificationSystem(simulation_mode=simulation_mode)
+        success, total = notifier.process_all_violations()
+        print("\nProcessing complete!")
         print(f"Successfully processed {success} out of {total} violations")
-        print(f"Check notification_logs directory for detailed logs")
+        print("Check the notification_logs/ folder for saved copies.")
     except Exception as e:
-        print(f"Error running notification system: {str(e)}")
+        print(f"Error running notification system: {e}")
         import traceback
         traceback.print_exc()
+
 
 if __name__ == "__main__":
     main()
